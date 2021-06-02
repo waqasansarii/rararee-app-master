@@ -1,0 +1,367 @@
+
+
+.post_surveyh > div {
+  width: 500px !important;
+}
+.survey_template>div{
+   width: 400px !important;
+   text-align: center;
+}
+.survey_template .cs_text>h2{
+  margin-bottom: 15px;
+}
+.survey_template .category_select{
+  height: 40vh;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 5px gainsboro;
+  border-radius: 9px;
+  margin-bottom: 25px;
+
+}
+.survey_template .category_select::-webkit-scrollbar{
+  width: 5px;
+}
+.survey_template .category_select::-webkit-scrollbar-thumb{
+  background-color: var(--bg-lightgreen);
+}
+.survey_template .category_select::-webkit-scrollbar-track{
+  background-color: gainsboro;
+}
+.survey_box{
+  width: 150px !important;
+}
+.slect_survey_post {
+  /* box-shadow: 5px 5px 10px gainsboro !important; */
+  border-radius: 9px;
+  padding: 20px;
+  /* margin-bottom: 10px; */
+}
+.survey_template p{
+  font-size: .9rem !important; 
+}
+
+
+/* post survey comp css  */
+
+.slect_survey_post .cs_tab_box {
+  width: 54%;
+}
+
+.post_survey_health > div {
+  width: 550px;
+}
+.health_analysis_div {
+  padding: 20px;
+  background-color: #f4f5f9;
+  margin-bottom: 20px;
+}
+.analysis_head {
+  /* display: flex; */
+  color: #979cab;
+  font-weight: bold;
+  position: relative;
+  /* justify-content: center; */
+}
+.analysis_head > h6 {
+  text-align: center !important;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.analysis_head > p {
+  position: absolute;
+  text-align: start !important;
+  font-size: 1.3em;
+  top: -5px;
+}
+
+.analysis_head > p:hover {
+  cursor: pointer;
+}
+.health_analysis_ul {
+  padding: 10px 20px;
+  font-size: 0.9em;
+  padding-right: 2px;
+}
+.health_analysis_ul > li {
+  margin-top: 8px;
+}
+.health_analysis_ul>li>p{
+  color: #2C2C2C;
+}
+.health_analysis_ul > li > div > span {
+  margin-left: 10px;
+  color: #5F677C;
+}
+.health_analysis_ul {
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+.health_analysis_ul::-webkit-scrollbar {
+  width: 5px;
+}
+.health_analysis_ul > li > p {
+  margin-bottom: 5px;
+}
+.health_analysis_ul > li > div > input {
+  font-size: 1em;
+  margin-top: 5px;
+  color: var(--bg-lightgreen);
+  border: 2px solid var(--bg-lightgreen);
+  outline: var(--bg-lightgreen);
+}
+
+.region_slct {
+  width: 100% !important;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: var(--text-lightgray);
+  outline: none;
+  border: 1px solid var(--bg-lightgreen);
+  margin-top: 10px;
+}
+.survet_textArea > textarea {
+  text-align: start !important;
+  padding: 4px 8px;
+  width: 100%;
+  border-radius: 3px;
+  color: var(--text-lightgray);
+}
+
+/* survey reward comp  */
+
+.head_reward {
+  text-align: center;
+}
+.head_reward > p {
+  color: var(--text-lightgray);
+  margin-top: 15px;
+  font-size: 0.85em;
+}
+
+.input_div_reward {
+  width: 370px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid var(--bg-lightgreen);
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+  /* display: flex; */
+}
+.hover_img {
+  display: none;
+  /* right: -10px; */
+}
+.input_div_reward > input {
+  border: none !important;
+  height: fit-content;
+  width: 340px;
+  text-align: center;
+}
+.input_div_reward > span {
+  position: relative;
+  /* margin-top: 10px; */
+}
+.input_div_reward > span:hover > .hover_img {
+  position: absolute;
+  left: 7px;
+  top: -20px;
+  display: block;
+}
+.survey_submit {
+  margin-top: 20px;
+}
+
+.survey_submit button {
+  width: 157px;
+}
+
+.mob_hover {
+  display: none;
+}
+
+.rewrd_back {
+  padding: 6px 45px !important;
+  margin-left: -15px;
+}
+
+.post_surveyh {
+  margin: 5rem 0;
+  margin-top: 2.5rem;
+}
+.post_share_btn{
+  background-color: transparent;
+  border: 1px solid var(--bg-lightgreen);
+  color: var(--bg-lightgreen);
+  outline: none;
+  width: 190px;
+  margin-top: 15px;
+  border-radius: 3px;
+  padding: 4px;
+}
+
+@media screen and (max-width: 1125px) {
+  .input_div_reward > span:hover > .mob_hover {
+    position: absolute;
+    /* left: 7px; */
+    right: -27px;
+    top: 12px;
+    display: block !important;
+    z-index: 99;
+  }
+  .hover_img {
+    left: -200px !important;
+    top: 20px !important;
+    z-index: 999;
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .post_survey_health > div {
+    width: 450px;
+  }
+  .post_survey_health .post_header {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .post_survey > div {
+    width: 93%;
+    padding: 10px;
+    text-align: center;
+  }
+  .post_surveyh > div {
+    width: 460px !important;
+  }
+  .post_survey {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .post_survey .cs_tab_text h2 {
+    font-size: 1rem;
+  }
+  .post_survey .cs_tab_text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .post_survey_health > div {
+    width: 380px;
+  }
+  .health_analysis_div {
+    padding: 20px 10px;
+  }
+  .health_analysis_ul {
+    padding: 10px;
+  }
+  .health_analysis_ul li p {
+    font-size: 0.9rem;
+  }
+  .post_surveyh > div {
+    width: 350px !important;
+  }
+  .post_surveyh .post_header {
+    text-align: center;
+  }
+  .survet_textArea > textarea {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .mob_hover {
+    right: -22px !important;
+  }
+  .post_survey .cs_tab_text h2 {
+    font-size: 0.8rem;
+  }
+  .slect_survey_post .cs_tab_text p {
+    font-size: 0.7rem;
+  }
+  .survey_template>div{
+    width: 350px !important;
+    text-align: center;
+ }
+ .survey_template p{
+   font-size: .8rem !important;
+ }
+}
+@media screen and (max-width: 400px) {
+  .post_survey > div {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .post_survey {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .post_survey .slect_survey_post,
+  .post_survey .slect_survey_post .cs_tab {
+    padding: 20px 10px !important;
+  }
+  .post_survey .c_dot {
+    width: fit-content;
+    right: 2px !important;
+  }
+
+  .post_survey .cs_tab_box {
+    width: 95% !important;
+  }
+  .post_survey_health > div {
+    width: 320px;
+  }
+  .health_analysis_ul li p {
+    font-size: 0.8rem;
+  }
+  .health_analysis_ul li div span {
+    font-size: 0.8rem;
+  }
+  .input_div_reward {
+    width: 300px;
+  }
+  .input_div_reward > input {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .post_surveyh > div {
+    width: 300px !important;
+  }
+  .rewrd_back {
+    padding: 5px 15px !important;
+  }
+  .survey_submit .rewrd_back {
+    width: 100px;
+  }
+  .survey_template>div{
+    width: 320px !important;
+    text-align: center;
+ }
+}
+
+@media screen and (max-width: 350px) {
+  .post_survey_health > div {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .post_surveyh > div {
+    width: 280px !important;
+  }
+  .survey_template>div{
+    width:280px !important;
+    text-align: center;
+ }
+  .input_div_reward {
+    width: 280px;
+  }
+  .input_div_reward > input {
+    width: 240px;
+  }
+}

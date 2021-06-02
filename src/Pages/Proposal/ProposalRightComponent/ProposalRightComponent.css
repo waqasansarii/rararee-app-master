@@ -1,0 +1,9 @@
+.proposalRightComponent{
+    display:flex;
+    /* padding-top:70px; */
+    box-shadow: 0px 0px 5px gainsboro !important;
+}
+
+.card{
+     padding:15px
+}
