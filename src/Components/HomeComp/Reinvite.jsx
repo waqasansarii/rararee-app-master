@@ -51,17 +51,7 @@ const Reinvite = () => {
             </div>
           </div>
         </div>
-        <div className="reinvite_img_div">
-          <div className="cros_img_div">
-            <img className="cros1_home" src={cros1} alt="img" />
-            <img className="cros2_home" src={cros2} alt="img" />
-          </div>
-          <ul className="see_world_ul">
-            <li className="li1">Change how you see the world! </li>
-            <li className="li2">You are a citizen of Global Village! 😄</li>
-            <li className="li3">Change how you see the world! </li>
-          </ul>
-          {/* <div>
+        {/* <div>
             <Slider {...settings} className="girl_slider">
               <div>
                 <img className="girl_img" src={girl} alt="img" />
@@ -71,36 +61,66 @@ const Reinvite = () => {
               </div>
             </Slider>
           </div> */}
-          <div className='slider_div_girls'>
-            <Swiper
-              // pagination
-              spaceBetween={10}
-              slidesPerView={1}
-              autoplay={{ disableOnInteraction: false, delay: 2500 }}
+        <div className="reinvite_img_div">
+        <div className="cros_img_div">
+                <img className="cros1_home" src={cros1} alt="img" />
+                <img className="cros2_home" src={cros2} alt="img" />
+              </div>
+              <ul className="see_world_ul">
+                <li className="li1">Change how you see the world! </li>
+                <li className="li2">You are a citizen of Global Village! 😄</li>
+                <li className="li3">Change how you see the world! </li>
+              </ul>
+          <Swiper
+            // pagination
+            spaceBetween={50}
+            slidesPerView={1}
+            autoplay={{ disableOnInteraction: false, delay: 2500 }}
+            // style={{ width: "50%" }}
+            className='myGirls_slider'
+          >
+            <SwiperSlide
+              style={{
+                width: "100%",
+                // height: "475px",
+                marginRight: "0px ",
+                display:'flex',
+                alignItems:'center'
+
+              }}
             >
-              <SwiperSlide
-                style={{
-                  width: "100%",
-                  height: "475px",
-                  marginRight: "0px ",
-                }}
-              >
-                <img className="girl_img" src={girl} alt="img" />
-              </SwiperSlide>
-              <SwiperSlide
-                style={{
-                  width: "100%",
-                  height: "475px",
-                  marginRight: "0px ",
-                }}
-              >
-                <img className="girl_img" src={girl} alt="img" />
-              </SwiperSlide>
-            </Swiper>
-            <img className="polygon3_img" src={polygon2} alt="img" />
-          </div>
-          {/* <img className="girl_img" src={girl} alt="img" /> */}
-          <img className="polygon2_img2" src={polygon2} alt="img" />
+
+              <img className="girl_img" src={girl} alt="img" />
+              {/* <img className="polygon2_img2" src={polygon2} alt="img" /> */}
+              <img className="polygon3_img" src={polygon2} alt="img" />
+            </SwiperSlide>
+            <SwiperSlide
+              style={{
+                width: "100%",
+                // height: "475px",
+                marginRight: "0px ",
+                display:'flex',
+                alignItems:'center'
+
+              }}
+            >
+              {/* <div className="cros_img_div">
+                <img className="cros1_home" src={cros1} alt="img" />
+                <img className="cros2_home" src={cros2} alt="img" />
+              </div>
+              <ul className="see_world_ul">
+                <li className="li1">Change how you see the world! </li>
+                <li className="li2">You are a citizen of Global Village! 😄</li>
+                <li className="li3">Change how you see the world! </li>
+              </ul> */}
+              <img className="girl_img" src={girl} alt="img" />
+              <img className="polygon3_img" src={polygon2} alt="img" />
+            </SwiperSlide>
+            {/* <img className="girl_img" src={girl} alt="img" /> */}
+            {/* <img className="polygon2_img2" src={polygon2} alt="img" /> */}
+            {/* <img className="polygon3_img" src={polygon2} alt="img" /> */}
+          </Swiper>
+              {/* <img className="polygon2_img2" src={polygon2} alt="img" /> */}
         </div>
       </div>
     </div>

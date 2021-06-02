@@ -234,15 +234,10 @@
 /* .reinvite_main_div{
     margin-top: 30px;
 } */
-.slider_div_girls{
+/* .slider_div_girls{
     display: flex;
-}
-.girl_slider{
-    width: 50% !important;
-    /* width: ; */
-    border: 2px solid red;
-    /* width: 70% !important;  */
-}
+} */
+
 .reinvite_main_div {
   display: flex;
   justify-content: space-between;
@@ -294,6 +289,7 @@
   margin-left: 58px;
 }
 .cros_img_div {
+  /* width: 50%; */
   position: relative;
 }
 .cros1_home {
@@ -312,6 +308,7 @@
 }
 .reinvite_img_div {
   position: relative;
+  width: 430px;
 }
 .see_world_ul {
   position: absolute;
@@ -340,6 +337,22 @@
 @media screen and (max-width: 1130px) {
   .polygon3_img {
     margin-right: 5px;
+  }
+  .reinvite_detail_div {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .reinvite_img_div {
+    width: 100%;
+  }
+  .myGirls_slider {
+    width: 330px;
+    /* margin-left: 60% !important; */
+    margin-right: 0px;
+    float: right;
+    margin-left: auto;
+    display: block;
   }
 }
 
@@ -916,7 +929,6 @@
   }
   .reinvite_img_div {
     text-align: end;
-
   }
   .cros1_home {
     left: 68%;
@@ -925,9 +937,9 @@
     left: 45%;
     position: absolute;
   }
-  .girl_img {
+  /* .girl_img {
     margin-bottom: 40px;
-  }
+  } */
   .polygon2_img2 {
     display: block;
     position: absolute;
@@ -952,15 +964,14 @@
 }
 
 @media screen and (max-width: 715px) {
-    .cros1_home {
-        left: 53%;
-      }
-      .cros2_home {
-        left: 30%;
-      }
+  .cros1_home {
+    left: 53%;
+  }
+  .cros2_home {
+    left: 30%;
+  }
 }
 @media screen and (max-width: 930px) {
-  
   .what_we_do_sub_div {
     width: 90%;
   }
@@ -1038,29 +1049,28 @@
   }
 }
 @media screen and (max-width: 860px) {
-    .see_world_ul{
-        left: 20%;
-    }
+  .see_world_ul {
+    left: 20%;
+  }
 }
 @media screen and (max-width: 760px) {
-    .see_world_ul{
-        left: 10%;
-    }
+  .see_world_ul {
+    left: 10%;
+  }
 }
 @media screen and (max-width: 660px) {
-    .see_world_ul{
-        left: 2%;
-
-    }
-    .see_world_ul > li{
-        padding: 5px;
-        font-size: .8rem;
-    }
+  .see_world_ul {
+    left: 2%;
+  }
+  .see_world_ul > li {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 560px) {
-    .see_world_ul{
-       display: none;
-    }
+  .see_world_ul {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1113,8 +1123,8 @@
     font-size: 1.5em;
   }
   .cros1_home {
-    right: 250px;
-    top: 40px;
+    right: 450px;
+    top: 180px;
   }
   .cros2_home {
     left: 15%;
@@ -1175,8 +1185,8 @@
   .view_all_div > p {
     font-size: 0.8rem;
   }
-  .getinspired_main_div{
-      width: 80%;
+  .getinspired_main_div {
+    width: 80%;
   }
 }
 
@@ -1203,8 +1213,11 @@
   .join_btn {
     padding: 5px 15px;
   }
-  .polygon3_img{
-      display: none;
+  .polygon3_img {
+    display: none;
+  }
+  .myGirls_slider{
+      width: 70%;
   }
 }
 @media screen and (max-width: 360px) {
@@ -1215,6 +1228,9 @@
     font-size: 0.8rem;
     margin-top: 0px;
   }
+  .myGirls_slider{
+    width: 80%;
+}
   .mob_step1,
   .mob_step2 {
     width: auto;
@@ -1234,8 +1250,8 @@
   .mob_step5 {
     bottom: -180px;
   }
-  .get_inspire_detail{
-      width: 100%;
+  .get_inspire_detail {
+    width: 100%;
   }
 }
 
@@ -1258,7 +1274,7 @@
   .mob_step5 {
     bottom: -180px;
   }
-  .get_inspire_img_div > img{
-      width: 225px;
+  .get_inspire_img_div > img {
+    width: 225px;
   }
 }
