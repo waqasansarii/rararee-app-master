@@ -1,0 +1,11 @@
+.auth_profile_setting_card_container {
+  width: 700px;
+}
+.auth_PS_head {
+  width: 670px;
+  margin-top: 0px;
+}
+.auth_profile_setting_card_container input::placeholder,
+.auth_profile_setting_card_container textarea::placeholder {
+  color: black;
+}

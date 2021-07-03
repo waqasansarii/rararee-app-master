@@ -1,0 +1,83 @@
+.auth_addUSer_right_md {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.add_user_mp > p {
+  font-size: 0.8rem;
+  color: #8792af;
+  margin-top: 5px;
+}
+.add_user_btn > button:nth-child(2) {
+  padding: 6px 40px;
+}
+.addUser_detail_md {
+  display: flex;
+}
+
+/* assign role  */
+
+.assign_role_container {
+  background-color: #f4f5f9;
+  padding: 20px;
+  border-radius: 5px;
+  width: 470px;
+}
+
+.addUser_Mt label {
+  width: 100% !important;
+  background-color: white !important;
+  /* margin-left: 500px; */
+  margin-top: 15px;
+  height: 95px !important;
+}
+.addUser_Mt .cs_tab_text {
+  text-align: start !important;
+  align-items: flex-start !important;
+}
+.addUser_Mt .cs_tab_text h2 {
+  margin: 10px 0px;
+  margin-bottom: 0px;
+  color: #001758 !important;
+}
+.addUser_Mt .cs_tab_box .c_dot {
+  right: -80px !important;
+}
+
+/* user detail  */
+.add_user_du_conatainer {
+  height: 80vh;
+  overflow-y: auto;
+}
+.add_user_du_conatainer::-webkit-scrollbar {
+  width: 5px;
+}
+.add_user_du_conatainer::-webkit-scrollbar-thumb {
+  background-color: #19c2a0;
+}
+.add_user_du_conatainer::-webkit-scrollbar-track {
+  background-color: #c3f0e7;
+}
+.addUser_upload_img {
+  width: 100%;
+  margin-top: 10px;
+}
+.aduser_cp_ul > li {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.permissions {
+  margin-left: 15px;
+}
+.permissions > h6 {
+  margin-bottom: 0px;
+  font-size: 0.9rem;
+  margin-top: 13px;
+  color: #1a1b1e;
+}
+.permissions > p {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #8792af;
+  margin-bottom: 0px;
+}

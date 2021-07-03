@@ -7,16 +7,15 @@ import lgLogo from "../../Assets/lg_logo.png";
 import fbIcon from "../../Assets/fb_icon.png";
 import gmailIcon from "../../Assets/gmail_icon.png";
 import orLine from "../../Assets/or_line.png";
-import loginBg from "../../Assets/lg_bgright.png";
-import xSmallIcon from "../../Assets/x_sm.png";
-import xMedumIcon from "../../Assets/x_md.png";
-import polygon1 from "../../Assets/polygon_1.png";
-import polygon2 from "../../Assets/polygon_2.png";
 import dot from "../../Assets/dot.png";
 import pwdclose from "../../Assets/pwdclose.png";
 import pwdopen from "../../Assets/pwdopen.png";
+import polygon1 from "../../Assets/polygon_1.png";
+import polygon2 from "../../Assets/polygon_2.png";
+import xSmallIcon from "../../Assets/x_sm.png";
+import xMedumIcon from "../../Assets/x_md.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import loginBg from "../../Assets/lg_bgright.png";
 
 const Login = () => {
   useLayoutEffect(() => {
@@ -128,7 +127,7 @@ const Login = () => {
                   <span>Remember me</span>
                 </label>
                 <span
-                  className="fp_text text_lightgray"
+                  className="fp_text text_bluegreen"
                   onClick={() => {
                     history.push("forget");
                   }}
@@ -143,14 +142,14 @@ const Login = () => {
               </div>
               <span className="s_label text_lightgray">
                 Not a member?{" "}
-                <Link to="/signup" className="text_lightpurple">
+                <Link to="/signup" className="text_bluegreen">
                   &nbsp;Sign Up!
                 </Link>
               </span>
             </form>
           </div>
         </div>
-        <div className="login_img_content">
+        <div className="login_img_content cus_img_content">
           <img className="lgic_1" src={xSmallIcon} alt="img" />
           <img className="lgic_2" src={xMedumIcon} alt="img" />
           <img className="lgic_3" src={polygon1} alt="img" />
@@ -160,8 +159,13 @@ const Login = () => {
           </div> */}
 
           <div className="d-flex justify-content-end">
-            <Swiper pagination spaceBetween={50} slidesPerView={1}>
-              <SwiperSlide>
+            <Swiper
+              pagination
+              spaceBetween={50}
+              slidesPerView={1}
+              autoplay={{ disableOnInteraction: false, delay: 2500 }}
+            >
+              <SwiperSlide style={{ height: "550px" }}>
                 <img className="s_bgimg1" src={loginBg} alt="img" />
               </SwiperSlide>
               <SwiperSlide>

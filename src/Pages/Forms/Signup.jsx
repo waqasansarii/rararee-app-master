@@ -155,7 +155,7 @@ const Signup = () => {
               </div>
               <span className="s_label text_lightgray">
                 Already a member?{" "}
-                <Link to="/login" className="text_lightpurple">
+                <Link to="/login" className="text_bluegreen">
                   &nbsp;Login
                 </Link>
               </span>
@@ -168,7 +168,12 @@ const Signup = () => {
           <img className="sic_3" src={polygon1} alt="img" />
           <img className="sic_4" src={polygon2} alt="img" />
           <div>
-            <Swiper pagination spaceBetween={50} slidesPerView={1}>
+            <Swiper
+              pagination
+              spaceBetween={50}
+              slidesPerView={1}
+              autoplay={{ disableOnInteraction: false, delay: 2500 }}
+            >
               <SwiperSlide>
                 <img className="s_bgimg" src={signupBg} alt="signupBg" />
               </SwiperSlide>

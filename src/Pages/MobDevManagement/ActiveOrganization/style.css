@@ -1,0 +1,20 @@
+.management_table_container{
+    overflow-x: auto !important;
+}
+.active_mange_table{
+    margin-top: 0px ;
+    overflow: auto !important;
+    /* text-align: center ; */
+    min-width: 985px !important;
+}
+.active_mange_table th{
+    font-size: .8rem !important;
+    padding:15px 5px;
+    text-align: center !important;
+}
+.active_mange_table h6{
+    font-size: .9rem !important;
+}
+.active_mange_table p{
+    font-size: .8rem;
+}

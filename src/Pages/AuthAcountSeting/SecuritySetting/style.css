@@ -1,0 +1,6 @@
+.auth_cp_md{
+    height: 70vh;
+}
+.auth_cp_md h6:nth-child(1){
+    margin-bottom: 15px;
+}

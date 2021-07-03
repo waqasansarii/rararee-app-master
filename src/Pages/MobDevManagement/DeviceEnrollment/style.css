@@ -1,0 +1,122 @@
+.device_enroll_right_md {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.de_head > h5 {
+  font-weight: bold;
+}
+.de_head > p {
+  /* margin-top: 10p; */
+  margin-bottom: 0px;
+  color: #8792af;
+  font-size: 0.9rem;
+}
+.device_enrol_cards_md {
+  display: flex;
+  margin-top: 30px;
+}
+.device_enrol_cards_md p,.device_enrol_cards_md h5,.device_enrol_cards_md h6{
+    margin-bottom: 0px;
+}
+.DE_error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.DE_next_btns_md{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.DE_error>p{
+    color: #DC1E25;
+    margin-left: 10px;
+    font-size: .9rem;
+    margin-bottom: 0px;
+}
+/* select organization comp  */
+
+.slct_org_card_container {
+  box-shadow: 0px 3px 10px #00000029;
+  border-radius: 5px;
+  padding: 20px;
+  width: 470px;
+
+}
+.slct_org_card_container p{
+    color: #8792AF;
+    
+}
+.slt_org_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slt_org_mPara>p{
+    font-size: .8rem;
+    margin-top: 15px;
+}
+.slct_org_card_container select{
+    width: 100%;
+    border: 1px solid #19C2A0;
+    outline: none;
+    color: #8792AF;
+    padding: 6px ;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: .9rem;
+}
+.slt_org_list_ul>li{
+    display: flex;
+  box-shadow: 0px 3px 10px #00000029;
+  padding: 15px 20px;
+  align-items: center;
+  margin-top: 5px;
+}
+.slt_org_list_ul>li>img{
+  box-shadow: 0px 3px 5px #00000029;
+    
+}
+.org_list_info{
+    margin-left: 10px;
+    
+}
+.org_list_info>h6{
+    color:#494949 ;
+}
+.org_list_info>p{
+    margin-top: 10px;
+}
+
+/* detail device comp  */
+
+.device_detail_conatainer{
+    box-shadow: 0px 3px 10px #00000029;
+  border-radius: 5px;
+  padding: 20px;
+  width: 450px;
+  margin-left: 20px;
+}
+
+.dvc_enrl_dtl_inp{
+    margin-top: 20px;
+}
+.dvc_enrl_dtl_inp>input{
+    margin-top: 15px;
+    border: 1px solid #19C2A0;
+    border-radius: 4px;
+    padding: 6px ;
+    width: 100%;
+}
+.dvc_enrl_dtl_inp>div>input,.dvc_enrl_dtl_inp>div>select{
+   width: 100%;
+   margin-top: 15px;
+    border: 1px solid #19C2A0;
+    border-radius: 4px;
+    padding: 6px ;
+    color: #8792af;
+    font-size: .9rem;
+}

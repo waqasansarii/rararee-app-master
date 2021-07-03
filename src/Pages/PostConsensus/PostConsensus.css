@@ -4,7 +4,9 @@
 
 #box1:checked + label,
 #box2:checked + label,
-#box3:checked + label {
+#box3:checked + label,
+#box4:checked + label
+ {
   border: 1px solid #0ac718;
 }
 
@@ -17,6 +19,10 @@
 }
 
 #box3:checked + label .c_dot {
+  display: block !important;
+}
+
+#box4:checked + label .c_dot {
   display: block !important;
 }
 

@@ -1,0 +1,233 @@
+
+.authority_vp_right_md{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.viewProposal_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.viewProposal_head > h6 {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.viewProposal_head button {
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  padding: 6px 15px;
+}
+.proposal_pause {
+  background-color: #f3d192;
+  margin-right: 10px;
+}
+.proposal_dlt {
+  background-color: rgb(245, 182, 182);
+}
+.view_propsal_right_card_conatainer{
+    display: flex;
+}
+.auth_view_proposal_card {
+  width: 500px;
+  box-shadow: 0px 3px 10px #00000029;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-top: 20px;
+}
+.auth_view_proposal_card .auth_card_body {
+  background-color: white;
+}
+.loc_pols_sec {
+  display: flex;
+  align-items: center;
+}
+.auth_vL {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.auth_vp_c > p {
+  margin-top: 20px;
+}
+.auth_view_proposal_card .auth_card_date {
+  font-size: 0.8rem;
+}
+.auth_vp_date {
+  display: flex;
+  justify-content: space-between;
+}
+.auth_vp_date > div > div:nth-child(2) {
+  margin-left: 30px;
+}
+.auth_vp_date .auth_duration_div {
+  padding: 0px;
+}
+.auth_vp_hcs {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgb(241, 239, 239);
+  margin-top: 30px;
+  padding: 10px 30px;
+}
+
+.auth_vp_likes > button {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.auth_vp_likes > button > p {
+  margin-bottom: 0px;
+  margin-left: 8px;
+  font-size: 0.85rem;
+  color: #353535;
+}
+.auth_vp_icon {
+  color: #2c2c2c;
+}
+
+/* feedback component */
+.auth_vp_comment_md{
+    height: 65vh;
+    overflow: auto;
+}
+.auth_vp_comment_md::-webkit-scrollbar{
+    width: 5px;
+}
+.feedback_md{
+    width: 500px;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-top: 20px;
+}
+.feedback_sd {
+    padding: 20px;
+  background-color: #f4f5f9;
+  border-radius: 8px 8px 0px 0px;
+}
+.feedback_md p{
+    margin-bottom: 0px;
+}
+.feedback_head > h6 {
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #001758;
+}
+.auth_vp_comment_user_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.auth_vp_commen_ul{
+    padding: 5px;
+}
+.auth_vp_commen_ul>li{
+    margin-top: 15px;
+}
+.vpc_user_name{
+    display: flex;
+    align-items: center;
+}
+.vpc_user_name>p{
+    margin-left: 10px;
+    font-size: .9rem;
+}
+.auth_vp_comment_user_info>p{
+   font-size: .8rem;
+   color: #8792AF;
+}
+.auth_vp_commen_ul>li>p{
+    font-size: .85rem;
+    margin-top: 10px;
+    color: #8792AF;
+}
+
+.auth_vpc_type_sec{
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   /* border: 2px solid red; */
+   padding: 10px 20px;
+}
+.auth_vpc_type_sec>input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 80%;
+}
+.vpc_sent>img{
+    margin: 0px 5px;
+}
+
+/* result component  */
+
+.auth_vp_result_md{
+    margin-left: 20px;
+    width: 380px;
+    margin-top: 30px;
+}
+.auth_vp_result_md p ,.auth_vp_result_md h5{
+    margin-bottom: 0px;
+    
+}
+.vp_result_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vp_result_head>h5{
+    color: #001758;
+}
+.vp_export{
+    display: flex;
+    align-items: center;
+}
+.vp_export>p{
+    margin-left: 10px;
+    font-size: .9rem;
+    color: #001758;
+}
+.auth_vp_charts_boxes{
+    box-shadow: 0px 3px 10px #00000029;
+    padding: 20px;
+    margin-top: 20px;
+}
+.auth_vp_charts_boxes p{
+    color: #5F677C;
+    font-size: .9rem;
+    margin-bottom: 15px;
+}
+
+.auth_vp_chart_box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 15px;
+}
+.auth_vp_chart_box2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 45px;
+}
+.vp_chart_cal>h5{
+    margin-top: 10px;
+}
+.vp_pieChart{
+    display: flex;
+    justify-content: center;
+    /* margin: 0px auto !important; */
+}
+.vp_Piechart_cal{
+    display:flex;
+
+}
+.vp_Piechart_cal>p:nth-child(1){
+    width: 20px;
+    height: 20px;
+    border-radius: 7px;
+}
+.vp_Piechart_cal>p:nth-child(2){
+    margin-left: 10px;
+}

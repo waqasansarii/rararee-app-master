@@ -1,6 +1,7 @@
-import React, { useLayoutEffect } from "react";
+import React from "react";
 import "./Contact.css";
 // assets
+
 import lgLogo from "../../Assets/cn_logo.png";
 import contactBg from "../../Assets/cn_bgright.png";
 import xSmallIcon from "../../Assets/x_sm.png";
@@ -9,10 +10,6 @@ import polygon1 from "../../Assets/polygon_1.png";
 import polygon2 from "../../Assets/polygon_2.png";
 
 const Contact = () => {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  },[]);
-
   return (
     <React.Fragment>
       <div className="main_form">
@@ -68,13 +65,14 @@ const Contact = () => {
                 </button>
               </div>
             </form>
+         
           </div>
         </div>
         <div className="login_img_content">
-          <img className="lgic_1" src={xSmallIcon} alt="img" />
-          <img className="lgic_2" src={xMedumIcon} alt="img" />
-          <img className="lgic_3" src={polygon1} alt="img" />
-          <img className="lgic_4" src={polygon2} alt="img" />
+          <img className="lgic_1" src={xSmallIcon} alt="" />
+          <img className="lgic_2" src={xMedumIcon} alt="" />
+          <img className="lgic_3" src={polygon1} alt="" />
+          <img className="lgic_4" src={polygon2} alt="" />
           <div className="d-flex justify-content-end">
             <img className="s_bgimg" src={contactBg} alt="contactBg" />
           </div>

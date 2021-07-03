@@ -1,3 +1,4 @@
+
 .c_navbar {
   background-color: #f9f9fb !important;
   height: 80px;
@@ -91,6 +92,10 @@
   align-items: center;
   padding: 10px 0;
   z-index: 19999;
+}
+
+.submenu-item a {
+  color: unset;
 }
 
 .submenu .submenu-item .nav-item {
@@ -269,6 +274,7 @@
   width: 100%;
   height: 92px;
   left: 0;
+  z-index: 20;
 }
 
 .search_main {
@@ -526,6 +532,11 @@
   align-items: center;
 }
 
+.footer_main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .footer span {
   /* color: #9ba3cc; */
 }
@@ -714,16 +725,17 @@
   }
   .mob_nav {
     box-shadow: 0px 0px 10px gainsboro;
-    margin-top: 5px;
+    margin-top: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height: max-content;
+    height: 95vh;
+    overflow-y: scroll;
     background: white;
     padding: 2rem 0;
     line-height: 2rem;
-    z-index: 2;
+    z-index: 999999;
   }
   .mob_nav .c_btn {
     height: 33px;
@@ -871,6 +883,12 @@
     width: 287px;
     left: -90px !important;
   }
+  .mob_nav {
+    width: 245px;
+  }
+  .c_navbar .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+}
 }
 
 @media screen and (max-width: 360px) {

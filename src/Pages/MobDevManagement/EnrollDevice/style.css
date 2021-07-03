@@ -1,0 +1,41 @@
+.enrol_search_boxes{
+    display: flex;
+}
+.enrol_search_boxes>div:nth-child(2){
+    margin-left: 10px;
+}
+.device_location_search>p{
+    margin-bottom: 0px;
+    position: absolute;
+    right: 20px;
+    color: #5F677C;
+}
+.device_location_search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.management_table_container::-webkit-scrollbar{
+    width: 7px;
+}
+.enroll_D_table{
+    min-width: 1200px;
+    margin-top: 0px;
+}
+.enroll_D_table thead{
+    background-color: #c5f1e9;
+}
+.enroll_D_table th{
+    font-size: .8rem;
+    text-align: center;
+    color: #19C2A0;
+}
+.enroll_D_table th{
+    padding: 15px 5px;
+}
+.enroll_D_table h6{
+    font-size: .8rem;
+}
+.enroll_D_table p{
+    font-size: .75rem;
+}

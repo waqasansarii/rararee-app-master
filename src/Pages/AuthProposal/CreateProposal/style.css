@@ -1,0 +1,110 @@
+.CP_type_md {
+  height: max-content;
+}
+.pro_type_slct {
+  display: flex;
+  padding: 0px 15px !important;
+}
+.pro_type_slct .cs_tab_text {
+  margin-left: 10px;
+}
+.pt_img {
+  width: 70px !important;
+  height: 50px;
+  object-fit: contain;
+  margin-right: 10px !important;
+}
+.pt2_img {
+  width: 90px !important;
+  height: 70px;
+}
+.vote_option {
+  display: flex;
+  align-items: center;
+}
+.vote_option > select {
+  outline: none;
+  padding: 7px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  border: 1px solid #19c2a0;
+  margin-top: 15px;
+  color: #8792af;
+  width: 27%;
+}
+.vote_option > input {
+  margin-left: 10px;
+  width: 73%;
+}
+.other_vote_opt {
+  margin-top: 20px;
+  text-align: center;
+}
+.other_vote_opt > button > p:nth-child(1) {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+.other_vote_opt > button {
+  margin: 20px auto;
+  margin-bottom: 0px;
+}
+.Auser_cs_tab label {
+  width: max-content;
+  height: max-content !important;
+}
+.spcfc_audiance_md {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.custm_aud_inp {
+  border: 2px solid #cccccc;
+  text-align: center;
+  margin-top: 15px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+}
+.spcfc_audiance_md label {
+  border: 2px solid #cccccc;
+}
+.spfc_audiance > p {
+  margin-bottom: 0px;
+  padding: 7px 0px;
+  width: 100px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #8792af;
+}
+
+#box5:checked + label,
+#box6:checked + label,
+#box7:checked + label,
+#box8:checked + label {
+  border: 2px solid #0ac718;
+}
+#box5:checked + label .c_dot,
+#box6:checked + label .c_dot,
+#box7:checked + label .c_dot,
+#box8:checked + label .c_dot {
+  display: block !important;
+}
+
+.spcfc_audiance_md .cs_tab_box .c_dot {
+  right: 3px !important;
+  width: 6px;
+  top: 5px;
+}
+
+.othr_stng_ul>li{
+    align-items: inherit;
+}
+.othr_stng_ul>li img{
+    /* object-fit: contain; */
+    height: 40px;
+}
+.othr_stng_ul .permissions > h6{
+    margin-top: 5px;
+}

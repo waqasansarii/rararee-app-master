@@ -9,7 +9,6 @@ import polygon1 from "../../Assets/Polygon 3@2x.png";
 import polygon2 from "../../Assets/Polygon 2@2x.png";
 import lgbgright from "../../Assets/lg_bgright.png";
 import forgotlogo from "../../Assets/forgotlogo.png";
-
 const Forget = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -45,21 +44,22 @@ const Forget = () => {
               </div>
               <div className="form_btn ">
                 <button
-                style={{width:"max-content",padding:"0 15px"}}
+                  style={{ width: "max-content", padding: "0 15px" }}
                   className="border_none bg_lightgreen"
-                  
-                >Recover Password</button>
+                >
+                  Recover Password
+                </button>
               </div>
               <span className="s_label text_lightgray">
                 Got a hint?{" "}
-                <Link to="/login" className="text_lightpurple">
+                <Link to="/login" className="text_bluegreen">
                   &nbsp;Try logging in again!
                 </Link>
               </span>
             </form>
           </div>
         </div>
-        <div className="login_img_content">
+        <div className="login_img_content cus_img_content">
           <img className="lgic_1" src={xSmallIcon} alt="img" />
           <img className="lgic_2" src={xMedumIcon} alt="img" />
           <img className="lgic_3" src={polygon1} alt="img" />
@@ -68,11 +68,11 @@ const Forget = () => {
           <div className="d-flex justify-content-end">
             <Swiper
               pagination
-              // navigation
+              autoplay={{ disableOnInteraction: false, delay: 2500 }}
               spaceBetween={50}
               slidesPerView={1}
             >
-              <SwiperSlide>
+              <SwiperSlide style={{ height: "550px" }}>
                 <img className="s_bgimg1" src={lgbgright} alt="img" />
               </SwiperSlide>
               <SwiperSlide>

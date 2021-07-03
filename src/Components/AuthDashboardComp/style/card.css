@@ -1,0 +1,97 @@
+.auth_proposal_card {
+  width: 275px;
+  box-shadow: 0px 0px 15px gainsboro;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-top: 20px;
+}
+.auth_card_M_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #19a0c2;
+}
+.auth_card_head {
+  color: white;
+  margin-bottom: 0px;
+}
+.auth_ongoing {
+  border: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  padding: 5px 8px;
+  font-size: 0.8rem;
+}
+.auth_card_body {
+  padding: 10px 15px;
+  background-color: #f4f5f9;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.auth_card_body_text > p {
+  font-size: 0.8rem;
+  margin-bottom: 0px;
+  color: #8792af;
+}
+.auth_location {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.auth_location > p {
+  margin-bottom: 0px;
+  color: #5f677c;
+  font-size: 0.97rem;
+  margin-left: 10px;
+}
+.auth_progress_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.auth_progress_div > p {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.auth_duration_div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.auth_duration_div p {
+  margin-bottom: 0px;
+  text-align: center;
+}
+.auth_card_date {
+  font-size: 0.9rem;
+  color: #5f677c;
+}
+.auth_cd_num {
+  margin-top: 5px;
+  font-weight: 600;
+  color: #001758;
+}
+.auth_card_creatin {
+  text-align: center;
+  margin-top: 10px;
+  color: #001758;
+  font-size: 0.9rem;
+}
+.auth_card_creatin > p {
+  margin-bottom: 0px;
+  font-size: 0.8rem;
+}
+.auth_pols {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  margin-bottom: 0px;
+}
+.auth_pols > p {
+  margin-bottom: 0px;
+  color: #001758;
+  font-weight: 500;
+  margin-left: 15px;
+}

@@ -1,0 +1,68 @@
+.userDetail_right_md {
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.auth_user_detail_card {
+  box-shadow: 0px 3px 10px #00000029;
+  border-radius: 5px;
+  padding: 20px;
+  height: max-content;
+  width: 500px;
+}
+.auth_UD_card p,
+.auth_UD_card h6 {
+  margin-bottom: 0px;
+  /* font-size: .9rem; */
+  /* font-weight: bold; */
+}
+.ud_Name {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.U_name_id {
+  margin-left: 10px;
+}
+.U_name_id > p {
+  margin-top: 10px;
+}
+.ud_user_more_detail {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.ud_more_info p {
+  font-size: 0.8rem;
+  color: #9ba3cc;
+  margin-top: 8px;
+}
+.ud_more_info h6 {
+  color: #001758;
+  font-size: .9rem;
+}
+.ud_info {
+  margin-left: 50px;
+}
+.orng_btn {
+  outline: none;
+  border: none;
+  padding: 6px 30px;
+  background-color: #ed9f10;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  color: white;
+  margin-right: 20px;
+}
+.red_btn {
+  outline: none;
+  border: none;
+  padding: 6px 30px;
+  background-color: #dc1e25;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px;
+  color: white;
+  
+}

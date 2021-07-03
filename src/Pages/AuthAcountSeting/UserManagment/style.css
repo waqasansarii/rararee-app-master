@@ -1,0 +1,44 @@
+.um_search{
+    width: 100% !important;
+}
+.um_search>input{
+    width: 96% ;
+}
+.user_m_table{
+    margin-top: 0px !important;
+}
+.cus_grn_btn>span{
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.manage_head>h6{
+    margin-bottom: 8px;
+    font-weight: 600;
+    /* margin-top: 15px; */
+}
+.manage_head>p{
+    margin-bottom: 0px;
+    color: grey;
+    font-size: .8rem;
+}
+.table_member_code>p{
+    margin-bottom: 0px;
+    text-decoration: underline rgba(83, 113, 255, 1);
+    color: rgba(83, 113, 255, 1);
+    margin-left: 0px ;
+    margin-top: 5px;
+}
+.uM_contact_info{
+    text-align: start !important;
+}
+.table_action_bin{
+    padding: 10px;
+    background-color: rgb(247, 181, 181);
+    margin-left: 5px;
+    border-radius: 8px;
+}
+
+.padding_edit{
+    padding-left: 12px ;
+}

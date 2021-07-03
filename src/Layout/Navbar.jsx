@@ -21,7 +21,6 @@ import MobSearchDropdown from "../Components/Dropdown/MobSearchDropdown";
 const Navbar = () => {
   let [isActive, setIsActive] = useState(false);
   let [open, setOpen] = useState(false);
- 
 
   const handleClose = () => {
     setOpen(false);
@@ -41,8 +40,8 @@ const Navbar = () => {
   };
 
   return (
-    <React.Fragment>
-      <nav className="navbar navbar-expand-lg c_navbar" id="top">
+    <div id="top">
+      <nav className="navbar navbar-expand-lg c_navbar sticky-top">
         <div
           className={
             isActive ? "c_container container" : "container cn_container"
@@ -61,18 +60,12 @@ const Navbar = () => {
               <button
                 className="navbar-toggler"
                 type="button"
-                // data-bs-toggle="collapse"
-                // data-bs-target="#navbarSupportedContent"
-                // aria-controls="navbarSupportedContent"
-                // // aria-expanded="false"
-                // aria-label="Toggle navigation"
                 onClick={(e) => {
                   e.stopPropagation();
                   setOpen(!open);
                 }}
               >
                 <img src={togglebtn} alt="img" />
-                {/* <span className="navbar-toggler-icon" /> */}
               </button>
             </div>
           ) : (
@@ -81,25 +74,16 @@ const Navbar = () => {
               <button
                 className="navbar-toggler"
                 type="button"
-                // data-bs-toggle="collapse"
-                // data-bs-target="#navbarSupportedContent"
-                // aria-controls="navbarSupportedContent"
-                // // aria-expanded="false"
-                // aria-label="Toggle navigation"
                 onClick={(e) => {
                   e.stopPropagation();
                   setOpen(!open);
                 }}
               >
                 <img src={togglebtn} alt="img" />
-                {/* <span className="navbar-toggler-icon" /> */}
               </button>
             </div>
           )}
-          <div
-            className="collapse desk_nav_collapse navbar-collapse"
-            // id="navbarSupportedContent"
-          >
+          <div className="collapse desk_nav_collapse navbar-collapse">
             <ul className="navbar-nav align-items-center me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link" to="/post">
@@ -128,14 +112,26 @@ const Navbar = () => {
 
                 <div className="submenu">
                   <ul className="submenu-item text_lightgray">
-                    <li className="nav-item">Mobile Device Management</li>
-                    <li className="nav-item">
-                      Connectivity Enabled Healthcare
-                    </li>
-                    <li className="nav-item">Citizen Engagment</li>
-                    <li className="nav-item">Online Consensus Forming</li>
-                    <li className="nav-item">Particularly Budgeting</li>
-                    <li className="nav-item">Democratic Technology</li>
+                    <Link className="text-decoration-none" to="/overview">
+                      <li className="nav-item">Mobile Device Management</li>
+                    </Link>
+                    <Link className="text-decoration-none" to="/overview">
+                      <li className="nav-item">
+                        Connectivity Enabled Healthcare
+                      </li>
+                    </Link>
+                    <Link className="text-decoration-none" to="/overview">
+                      <li className="nav-item">Citizen Engagment</li>
+                    </Link>
+                    <Link className="text-decoration-none" to="/overview">
+                      <li className="nav-item">Online Consensus Forming</li>
+                    </Link>
+                    <Link className="text-decoration-none" to="/overview">
+                      <li className="nav-item">Particularly Budgeting</li>
+                    </Link>
+                    <Link className="text-decoration-none" to="/overview">
+                      <li className="nav-item">Democratic Technology</li>
+                    </Link>
                   </ul>
                 </div>
               </li>
@@ -230,8 +226,6 @@ const Navbar = () => {
                     <hr />
                   </div>
                 )}
-                {/* /user ki profile ani/ */}
-
                 <li onClick={handleClose} className="nav-item">
                   <Link className="nav-link" to="/post">
                     Report an issue
@@ -262,9 +256,6 @@ const Navbar = () => {
                     Blog
                   </Link>
                 </li>
-                {/* <li onClick={handleClose} className="nav-item">
-                  <MobSearchDropdown />
-                </li> */}
                 <li className="nav-item mt-5">
                   <LanguageDropdown />
                 </li>
@@ -298,7 +289,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </React.Fragment>
+    </div>
   );
 };
 

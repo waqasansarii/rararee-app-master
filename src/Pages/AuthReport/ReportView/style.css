@@ -1,0 +1,33 @@
+.report_comnt_sec{
+    width: 470px ;
+}
+.report_cmnt_height{
+    max-height: 42vh;
+    overflow-y: auto;
+    /* margin-top: 30px; */
+    padding-top: 110px;
+}
+.report_cmnt_height::-webkit-scrollbar{
+    width: 5px;
+}
+.report_view_tL{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.RV_comnt_md{
+    margin-top: 20px;
+}
+.RV_card{
+    width: 470px;
+    padding: 10px 20px;
+    background-color: #f8f8fa !important;
+    border-radius: 5px !important;
+    /* opacity: 0.9; */
+    box-shadow: none !important;
+
+}
+.RV_card_map_img{
+    width: 100%;
+    margin: 20px 0px !important;
+    height: 30vh;
+}
