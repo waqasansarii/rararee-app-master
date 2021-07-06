@@ -10,7 +10,7 @@ const OrganizationEnrollment = () => {
       <div className="authority_left_md">
         <Sidebar />
       </div>
-      <div className="authority_right_md">
+      <div className="auth_ORG_enrol_right_md">
         <div className="encovision_head">
           <div className="manage_head">
             {/* <img src={encovision} alt="..." /> */}

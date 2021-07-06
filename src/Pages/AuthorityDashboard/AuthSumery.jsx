@@ -25,9 +25,9 @@ const AuthSumery = () => {
     <div className="authority_container">
       <div className="authority_left_md">
         <div className="auth_sidebar_sd_cont">
-          {/* <Sidebar /> */}
+          <Sidebar />
           </div>
-        <div className="auth_mobV_sidebar_sd">
+        {/* <div className="auth_mobV_sidebar_sd">
           <button
             className="dropdown-toggle"
             type="button"
@@ -41,7 +41,7 @@ const AuthSumery = () => {
             <Sidebar />
             <img src={togle2} alt="..." />
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="authority_right_md">

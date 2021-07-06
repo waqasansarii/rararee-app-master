@@ -78,7 +78,12 @@
     font-size: .85rem;
     color: #9BA3CC;
 }
-
+.org_vp_card_adrs_md{
+    padding: 30px 20px;
+}
+.org_vp_card_adrs_md .organize_vp_dcard_addres{
+    justify-content: space-between;
+}
 
 /* card2  */
 

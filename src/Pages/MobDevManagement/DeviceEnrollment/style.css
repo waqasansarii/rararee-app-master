@@ -1,6 +1,7 @@
 .device_enroll_right_md {
   margin-top: 20px;
   margin-left: 20px;
+  max-width: 965px;
 }
 .de_head > h5 {
   font-weight: bold;

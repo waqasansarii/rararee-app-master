@@ -10,7 +10,7 @@ const AuthViewProposal = () => {
       <div className="authority_left_md">
         <Sidebar />
       </div>
-      <div className="authority_right_md">
+      <div className="auth_table_right_md">
         <div className="charts_headings">
           <h5>Proposals</h5>
           <button className="cus_grn_btn">Create a proposal</button>

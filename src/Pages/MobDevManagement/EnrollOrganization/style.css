@@ -1,5 +1,8 @@
 
-
+.auth_ORG_enrol_right_md{
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .auth_cus_wht_btn{
     background: transparent;
     color: #1CC09F;
@@ -12,6 +15,7 @@
 }
 .auth_OE_forms_md{
     display: flex;
+    margin-top: 20px;
 }
 
 /* forms css  */

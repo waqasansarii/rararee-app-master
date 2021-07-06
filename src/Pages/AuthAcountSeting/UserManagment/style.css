@@ -1,5 +1,11 @@
+.auth_UM_right_md{
+    margin-left: 20px;
+    margin-top: 30px;
+}
 .um_search{
     width: 100% !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .um_search>input{
     width: 96% ;

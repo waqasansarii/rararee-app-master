@@ -71,7 +71,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/report-detail-two"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -90,7 +90,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/create-proposal"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -103,7 +103,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/auth-view-proposal"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -116,7 +116,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/auth-proposal"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -135,7 +135,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/organizationn-enroll"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -148,7 +148,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/active-organization"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -161,7 +161,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/device-enroll"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -180,7 +180,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/add-user"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -193,7 +193,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/user-management"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -206,7 +206,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/device-view"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -225,7 +225,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/auth-profile-setting"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -238,7 +238,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/user-detail"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -251,7 +251,7 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/auth-secure-seting"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >
@@ -264,7 +264,20 @@ const Sidebar = ({ id }) => {
               </li>
               <li className="sidebar_sub_li">
                 <NavLink
-                  to="/auth-dashboard"
+                  to="/organizationn-view"
+                  activeClassName="active_sidebar_link"
+                  className="sidebar_sub_links"
+                >
+                  <div className="img_name">
+                    <img src={logout} alt="..." />
+                    <p>Logout</p>
+                  </div>
+                  <img src={more} alt="..." />
+                </NavLink>
+              </li>
+              <li className="sidebar_sub_li">
+                <NavLink
+                  to="/enroll-device"
                   activeClassName="active_sidebar_link"
                   className="sidebar_sub_links"
                 >

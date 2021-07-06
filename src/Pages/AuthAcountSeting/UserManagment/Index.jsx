@@ -10,8 +10,8 @@ const UserManagement = () => {
       <div className="authority_left_md">
         <Sidebar />
       </div>
-      <div className="authority_right_md">
-        <div className="encovision_head">
+      <div className="auth_UM_right_md">
+        <div className="encovision_head ">
           <div className="manage_head">
             {/* <img src={encovision} alt="..." /> */}
             <h6>User Management</h6>

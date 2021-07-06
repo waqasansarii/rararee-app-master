@@ -22,7 +22,7 @@ const OrganizationViewPage = () => {
           </div>
         </div>
         <div className="organization_vp_cards_md">
-          <OrgDetailCard />
+          <OrgDetailCard className='org_vp_card_adrs_md' />
           <div className="key_cDCard">
             <DeviceDetailCard
               uImg={user}

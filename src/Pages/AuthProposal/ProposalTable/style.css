@@ -5,6 +5,10 @@
     width: 300px;
     border-radius: 7px;
 }
+.auth_table_right_md{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .searhc_proposal_md>input{
     border: none;
     outline: none;
