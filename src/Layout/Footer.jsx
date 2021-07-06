@@ -123,6 +123,13 @@ const Footer = () => {
                 >
                   Business
                 </span>
+                <span
+                  onClick={() => {
+                    history.push("/auth-dashboard");
+                  }}
+                >
+                  Dashboard
+                </span>
               </div>
             </div>
             <div className="fc_2">

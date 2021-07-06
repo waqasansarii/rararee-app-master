@@ -288,6 +288,20 @@ const Sidebar = ({ id }) => {
                   <img src={more} alt="..." />
                 </NavLink>
               </li>
+              <li className="sidebar_sub_li">
+                <NavLink
+                  to="/report-view"
+                  activeClassName="active_sidebar_link"
+                  className="sidebar_sub_links"
+                >
+                  <div className="img_name">
+                    <img src={logout} alt="..." />
+                    <p>Logout</p>
+                  </div>
+                  <img src={more} alt="..." />
+                </NavLink>
+              </li>
+              
             </ul>
           </div>
         </div>
