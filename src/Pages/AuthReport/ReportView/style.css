@@ -1,8 +1,13 @@
 .report_comnt_sec{
     width: 470px ;
 }
+.AR_cmnt_slider_md{
+    display: flex;
+    flex-wrap: wrap;
+}
 .report_cmnt_height{
-    max-height: 42vh;
+    /* max-height: 42vh; */
+    max-height: 280px;
     overflow-y: auto;
     /* margin-top: 30px; */
     padding-top: 110px;
@@ -20,14 +25,53 @@
 .RV_card{
     width: 470px;
     padding: 10px 20px;
-    background-color: #f8f8fa !important;
+    /* background-color: #f8f8fa !important; */
+    background-color: white !important;
     border-radius: 5px !important;
     /* opacity: 0.9; */
-    box-shadow: none !important;
+    box-shadow: 0pt 3pt 10pt #00000029 !important;
 
 }
 .RV_card_map_img{
     width: 100%;
     margin: 20px 0px !important;
     height: 30vh;
+}
+
+@media screen and (max-width:1260px){
+    .report_view_tL{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1050px){
+    .report_view_tL{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .AR_cmnt_slider_md{
+        margin-left: -50px;
+    }
+}
+@media screen and (max-width:935px){
+    .AR_cmnt_slider_md{
+        justify-content: center;
+    }
+   .AR_cmnt_slider_md .Rant_component_card{
+       height: inherit;
+   }
+    .report_view_tL{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:500px){
+    .report_comnt_sec,.RV_card{
+        width: 93% ;
+        margin: 0px auto;
+    }
+    .AR_timeline_container{
+        margin: 0px auto;
+        width: 93%;
+    }
 }

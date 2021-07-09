@@ -40,7 +40,7 @@ const Navbar = () => {
   };
 
   return (
-    <div id="top">
+    <div id="top" className='sticky-top'>
       <nav className="navbar navbar-expand-lg c_navbar sticky-top">
         <div
           className={

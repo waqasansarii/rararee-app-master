@@ -3,6 +3,8 @@
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
+    /* width: 67%; */
+    /* max-width: 1200px; */
 }
 .viewProposal_head {
   display: flex;
@@ -28,9 +30,19 @@
 }
 .view_propsal_right_card_conatainer{
     display: flex;
+    /* width: 50%; */
+    /* border: 2px solid red; */
+}
+
+.card_comment_md{
+  width: 55%;
+}
+.auth_vp_result_md{
+  width: 30%;
 }
 .auth_view_proposal_card {
   width: 500px;
+  /* width: 90%; */
   box-shadow: 0px 3px 10px #00000029;
   border-bottom-left-radius: 9px;
   border-bottom-right-radius: 9px;
@@ -85,23 +97,33 @@
   color: #353535;
 }
 .auth_vp_icon {
-  color: #2c2c2c;
+  color: #1616167c !important;
 }
 
 /* feedback component */
+/* .feedback_container{
+  width: 100%;
+} */
 .auth_vp_comment_md{
-    height: 65vh;
+    /* height: 65vh; */
+    max-height: 435px;
     overflow: auto;
+    /* width:100% ; */
 }
+/* @media screen and (min-height:750px){
+
+} */
 .auth_vp_comment_md::-webkit-scrollbar{
     width: 5px;
 }
 .feedback_md{
     width: 500px;
+    /* width: 80%; */
     box-shadow: 0px 3px 6px #00000029;
     margin-top: 20px;
 }
 .feedback_sd {
+      /* width: 100%; */
     padding: 20px;
   background-color: #f4f5f9;
   border-radius: 8px 8px 0px 0px;
@@ -230,4 +252,182 @@
 }
 .vp_Piechart_cal>p:nth-child(2){
     margin-left: 10px;
+}
+
+
+
+@media screen and (max-width:1270px){
+  .auth_view_proposal_card{
+    width: 350px;
+  }
+  .feedback_md{
+    width: 350px;
+  }
+  .auth_vpc_type_sec>input{
+    width: 70%;
+  }
+  .auth_vp_date p{
+    font-size: .7rem;
+  }
+  .auth_vp_hcs{
+    padding: 10px;
+  }
+  .card_comment_md{
+    width: auto;
+  }
+  .auth_vp_charts_boxes{
+    padding: 20px 10px;
+  }
+  .auth_vp_result_md{
+    width: 290px;
+  }
+  .auth_vp_chart_box2{
+    padding: 0px 30px;
+  }
+}
+@media screen and (max-width:1050px){
+  .auth_vp_result_md{
+    width: 40%;
+  }
+  .auth_view_proposal_card{
+    width: 100%;
+  }
+  .feedback_md{
+    width: 100%;
+  }
+  .viewProposal_head{
+    width: 93%;
+  }
+  .card_comment_md{
+    width: 50%;
+  }
+}
+@media screen and (max-width:800px){
+  .view_propsal_right_card_conatainer{
+    margin-left: -50px;
+  }
+}
+@media screen and (max-width:750px){
+  .view_propsal_right_card_conatainer{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .authority_vp_right_md{
+    width: 100%;
+  }
+  .auth_vp_result_md{
+    width: 450px;
+    margin: 20px auto;
+  }
+  .auth_view_proposal_card{
+    width: 450px;
+    margin: 20px auto;
+    margin-bottom: 0px;
+  }
+  .feedback_md{
+    width: 450px;
+    margin: 20px auto;
+    margin-bottom: 0px;
+  }
+  .card_comment_md{
+    width: 100%;
+  }
+  .auth_vp_chart_box2{
+    padding: 0px 45px;
+  }
+}
+@media screen and (max-width:500px){
+  .auth_vp_result_md{
+    width: 100%;
+    margin: 20px auto;
+  }
+  .auth_view_proposal_card{
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+  }
+  .viewProposal_head{
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .feedback_md{
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+  }
+  .view_propsal_btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+  .auth_vp_comment_md{
+    max-height: 240px;
+  }
+  .view_propsal_right_card_conatainer{
+    width: 109%;
+  }
+}
+@media screen and (max-width:390px){
+  .auth_vp_likes > button > p,.auth_view_proposal_card .auth_card_date{
+   font-size: .65rem;
+  }
+  .auth_vp_commen_ul>li>p,.auth_vp_comment_user_info>p{
+    font-size: .7rem;
+  }
+  .feedback_sd{
+    padding: 15px 12px;
+  }
+  .auth_vp_date{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:370px){
+  .auth_vp_c > p{
+    margin-top: 0px;
+  }
+  .auth_vp_hcs{
+    margin-top: 10px;
+  }
+  .auth_vpc_type_sec>input{
+    width: 60%;
+  }
+  .vpc_user_name>p{
+    font-size: .75rem;
+  }
+  .auth_vp_comment_md{
+    max-height: 200px;
+  }
+}
+@media screen and (max-width:340px){
+  .auth_vp_icon{
+    font-size: .7rem !important;
+  }
+  .auth_pols > p{
+    font-size: .75rem;
+  }
+  .auth_duration_div p, .auth_location > p{
+    font-size: .65rem;
+  }
+  .auth_vp_hcs{
+    padding: 10px 4px;
+  }
+  .auth_vp_charts_boxes p{
+    font-size: .75rem;
+  }
+  .auth_vp_chart_box2{
+    padding: 0px 25px;
+  }
+}
+@media screen and (max-width:310px){
+  .auth_vp_commen_ul{
+    padding: 5px 0px;
+  }
+  .feedback_sd,.auth_vpc_type_sec{
+    padding: 15px 8px;
+  }
 }

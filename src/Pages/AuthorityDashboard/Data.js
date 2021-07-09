@@ -1,3 +1,5 @@
+import arrow from "../../Assets/Icon feather-arrow-rightblack.png";
+
 export const statusChart = {
     labels: ["Option A", "Option B", "Option  C", "Option  D"],
     datasets: [
@@ -17,7 +19,7 @@ export const statusChart = {
     ],
   };
   export const ProposalStatusChart = {
-    labels: ["Option A", "Option B", "Option  C"],
+    labels: [`Option A  `, "Option B", "Option  C"],
     datasets: [
       {
         label: " ",
