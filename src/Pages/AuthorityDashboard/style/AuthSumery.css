@@ -23,6 +23,9 @@
   inset: -10px auto auto 0px !important;
   position: relative;
 }
+.dropdown-toggle{
+  position: absolute;
+}
 .dropdown-menu {
   padding: 0px !important;
   border: none !important;

@@ -14,17 +14,13 @@ import user from "../../../Assets/Rectangle 1010.png";
 import cup from "../../../Assets/Icon awesome-hourglass-end.png";
 import check from "../../../Assets/Rectangle 1022.png";
 
-
-
 export default function ReportTimeline() {
-
   return (
     <div className="AR_timeline_container">
       <div className="AR_timeline_md">
         <div className="timeline_head">
           <h6>Problem Status</h6>
         </div>
-
         <Timeline>
           <TimelineItem>
             <TimelineSeparator>
@@ -127,8 +123,8 @@ export default function ReportTimeline() {
                 </div>
               </div>
               <div className="timeline_step4_btn">
-                  <button className='cus_grn_btn'>Re-assign</button>
-                  <button className='cus_grn_btn bg_orng'>Close Case</button>
+                <button className="cus_grn_btn">Re-assign</button>
+                <button className="cus_grn_btn bg_orng">Close Case</button>
               </div>
             </TimelineContent>
           </TimelineItem>

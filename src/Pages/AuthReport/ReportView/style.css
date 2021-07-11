@@ -75,3 +75,48 @@
         width: 93%;
     }
 }
+@media screen and (max-width:430px){
+    .AR_cmnt_slider_md{
+        margin-left: -60px;
+    }
+    .RV_card{
+        padding: 10px;
+    }
+   .RV_card .ms-2{
+       margin-left: 0px !important;
+   }
+   .RV_card .Rcard_content{
+       margin-bottom: 0px;
+   }
+   .RV_card_map_img{
+       margin: 5px auto !important;
+   }
+   .step1Head>p{
+       font-size: .65rem;
+   }
+   .step1Head>h6,.TL_uName>h6{
+       font-size: .8rem;
+       font-weight: bold;
+   }
+   .TL_uName>p{
+       font-size: .7rem;
+   }
+   .AR_timeline_container{
+       padding: 20px 10px;
+   }
+   .MuiTimelineContent-root{
+       padding: 6px !important;
+   }
+   .timeline_step4_btn>button{
+       font-size: .7rem;
+   }
+}
+@media screen and (max-width:330px){
+    .MuiTimelineItem-missingOppositeContent:before{
+        padding: 0px !important;
+    }
+    .MuiTimelineDot-defaultGrey>img{
+        width: 20px;
+        object-fit: contain;
+    }
+}

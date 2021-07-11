@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
+  max-width: 1100px;
+  padding-right: 10px;
 }
 .auth_user_detail_card {
   box-shadow: 0px 3px 10px #00000029;
@@ -65,4 +67,72 @@
   border-radius: 5px;
   color: white;
   
+}
+
+@media screen and (max-width:1200px){
+  .auth_user_detail_card{
+    width: 380px;
+  }
+  .ud_info{
+    margin-left: 20px;
+  }
+  .ud_more_info h6{
+    font-size: .8rem;
+  }
+}
+@media screen and (max-width:1050px){
+  .userDetail_right_md{
+      margin-top: 90px;
+      margin-bottom: 30px;
+      width: 90%;
+  }
+}
+@media screen and (max-width:780px){
+  .userDetail_right_md{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .userDetail_right_md .auth_ud_btns{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width:430px){
+  .auth_UD_card>h6{
+    text-align: center;
+  }
+  .userDetail_right_md{
+    width: 100%;
+  }
+  .ud_Name{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .auth_user_detail_card{
+    width: 350px;
+  }
+  .auth_user_detail_card{
+    padding: 20px 10px;
+  }
+}
+@media screen and (max-width:380px){
+  .auth_user_detail_card{
+    width: 300px;
+  }
+  .ud_more_info h6{
+    font-size: .62rem;
+    font-weight: bold;
+  }
+  .ud_more_info p{
+    font-size: .6rem;
+  }
+}
+@media screen and (max-width:380px){
+  .auth_user_detail_card{
+    width: 270px;
+  }
+  .orng_btn,.red_btn{
+    font-size: .8rem;
+  }
 }
