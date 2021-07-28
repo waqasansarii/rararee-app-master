@@ -12,7 +12,7 @@ import step3 from "../../../Assets/Group 5033.png";
 import step4 from "../../../Assets/Group 5034.png";
 import user from "../../../Assets/Rectangle 1010.png";
 import cup from "../../../Assets/Icon awesome-hourglass-end.png";
-import check from "../../../Assets/Rectangle 1022.png";
+import check from "../../../Assets/Path 6937.png";
 
 export default function ReportTimeline() {
   return (
@@ -110,7 +110,7 @@ export default function ReportTimeline() {
               </div>
               <div className="timeline_user_info">
                 <div className="timeline_user_name">
-                  <img src={check} alt="..." />
+                  <img className='tm_check' src={check} alt="..." />
                   <div className="TL_uName">
                     <h6>Resolved</h6>
                     <p>

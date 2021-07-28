@@ -139,7 +139,7 @@ const Routes = () => {
           <Route path='/auth-secure-seting' component={AuthSecuritySetting} />
           <Route path='/auth-view-proposal' component={ViewProposalPage} />
           <Route path='/organizationn-enroll' component={OrganizationEnrollment} />
-          <Route path='/organizatio-view' component={OrganizationViewPage} />
+          <Route path='/organizationn-view' component={OrganizationViewPage} />
           <Route path='/device-enroll' component={DeviceEnrollment} />
           <Route path='/add-user' component={AddAUser} />
           <Route path='/create-proposal'  component={AuthCreateProposal}/>

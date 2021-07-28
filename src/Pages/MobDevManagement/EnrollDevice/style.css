@@ -1,41 +1,168 @@
-.enrol_search_boxes{
-    display: flex;
+.auth_enroll_device_md {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 72%;
+  max-width: 1200px;
 }
-.enrol_search_boxes>div:nth-child(2){
-    margin-left: 10px;
+.enrol_search_boxes {
+  display: flex;
 }
-.device_location_search>p{
-    margin-bottom: 0px;
-    position: absolute;
-    right: 20px;
-    color: #5F677C;
+.enrol_search_boxes > div:nth-child(2) {
+  margin-left: 10px;
 }
-.device_location_search{
-    display: flex;
-    align-items: center;
-    position: relative;
+.device_location_search > p {
+  margin-bottom: 0px;
+  position: absolute;
+  right: 20px;
+  color: #5f677c;
 }
-.management_table_container::-webkit-scrollbar{
-    width: 7px;
+.device_location_search {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
-.enroll_D_table{
-    min-width: 1200px;
-    margin-top: 0px;
+.management_table_container::-webkit-scrollbar {
+  width: 7px;
 }
-.enroll_D_table thead{
-    background-color: #c5f1e9;
+.enroll_D_table {
+  min-width: 1200px;
+  margin-top: 0px;
 }
-.enroll_D_table th{
-    font-size: .8rem;
-    text-align: center;
-    color: #19C2A0;
+.enroll_D_table thead {
+  background-color: #c5f1e9;
 }
-.enroll_D_table th{
-    padding: 15px 5px;
+.enroll_D_table th {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #19c2a0;
 }
-.enroll_D_table h6{
-    font-size: .8rem;
+.enroll_D_table th {
+  padding: 15px 5px;
 }
-.enroll_D_table p{
-    font-size: .75rem;
+.enroll_D_table h6 {
+  font-size: 0.8rem;
+}
+.enroll_D_table p {
+  font-size: 0.75rem;
+}
+
+/* mobile view card  */
+.enrol_device_card .orgCard_info_sec1 {
+  width: 430px;
+}
+.en_device_cardSec2 {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+}
+.en_device_cardSec2 .orgCard_info {
+  margin-top: 10px;
+}
+.en_device_cardSec3 {
+  display: flex;
+  justify-content: space-between;
+  width: 335px;
+}
+@media (max-width: 1300px) {
+  .auth_enroll_device_md {
+    width: 68%;
+  }
+}
+@media (max-width: 1150px) {
+  .auth_enroll_device_md {
+    width: 65%;
+  }
+}
+@media (max-width: 1050px) {
+  .auth_enroll_device_md {
+    width: 95%;
+  }
+  .auth_enroll_device_md .manage_head > h6 {
+    display: none;
+  }
+  .auth_enroll_device_md .manage_head > p {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .ED_btn_mobV {
+    margin-top: -40px;
+  }
+}
+@media (max-width: 700px) {
+  .auth_enroll_device_md {
+    margin: 20px auto;
+  }
+  .auth_enroll_device_md .management_table_container {
+    display: none;
+  }
+  .enrol_search_boxes {
+    flex-wrap: wrap;
+  }
+  .enrol_search_boxes .device_location_search {
+    margin-top: 20px;
+    margin-left: 0px !important;
+  }
+  .auth_enroll_device_md .manage_head > p {
+    margin-left: 50px;
+  }
+  .ED_btn_mobV {
+    margin-top: -20px;
+    margin-bottom: 15px;
+  }
+  .auth_enroll_device_md .mob_srch_org_btn {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .enrol_device_card .orgCard_info_sec1 {
+    width: 350px;
+  }
+  .en_device_cardSec2 {
+    width: 302px;
+  }
+  .en_device_cardSec3 {
+    width: 263px;
+  }
+}
+@media (max-width: 450px) {
+  .enrol_device_card .orgCard_info_sec1 {
+    width: 335px;
+  }
+  .en_device_cardSec3 {
+    width: 259px;
+  }
+}
+@media (max-width: 400px) {
+  .enrol_device_card .orgCard_info_sec1 {
+    width: 300px;
+  }
+  .en_device_cardSec2 {
+    width: 255px;
+  }
+  .en_device_cardSec3 {
+    width: 223px;
+  }
+}
+@media (max-width: 360px) {
+  .enrol_device_card .orgCard_info_sec1 {
+    width: 260px;
+  }
+  .en_device_cardSec2 {
+    width: 238px;
+  }
+  .en_device_cardSec3 {
+    width: 200px;
+  }
+}
+@media (max-width: 300px) {
+  .enrol_device_card .orgCard_info_sec1 {
+    width: 240px;
+  }
+  .en_device_cardSec2 {
+    width: 218px;
+  }
+  .en_device_cardSec3 {
+    width: 180px;
+  }
 }

@@ -16,10 +16,10 @@ const ReportMapCard = () => {
               <div className="Rcard_content">
                 {" "}
                 <h4
-                  className="Rtitle_responsive text_bluegreen"
+                  className="Rtitle_responsive rv_card_head"
                   style={{ fontSize: "1rem" }}
                 >
-                  Need A New Road In Nigeria...
+                  Pothole in Sector G-10
                 </h4>
 
               </div>

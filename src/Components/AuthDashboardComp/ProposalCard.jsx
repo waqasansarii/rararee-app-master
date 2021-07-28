@@ -43,7 +43,7 @@ const useStyles = makeStyles({
 
 const AuthorityProposalCard = ({ headColor, progres, percent, margin }) => {
   const classes = useStyles();
-  const [progress] = React.useState(10);
+  const [progress] = React.useState(90);
 
   return (
     <React.Fragment>

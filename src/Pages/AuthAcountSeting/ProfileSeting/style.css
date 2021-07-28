@@ -1,6 +1,14 @@
 .auth_profile_setting_card_container {
   width: 700px;
 }
+.authority_acc_stng_right_md {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.auth_stng_btns{
+  display: none;
+}
 .auth_PS_head {
   width: 670px;
   margin-top: 0px;
@@ -8,4 +16,39 @@
 .auth_profile_setting_card_container input::placeholder,
 .auth_profile_setting_card_container textarea::placeholder {
   color: black;
+}
+@media screen and (max-width: 1050px) {
+}
+.authority_acc_stng_right_md {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 750px) {
+  .auth_profile_setting_card_container,
+  .auth_PS_head {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 699px) {
+}
+@media screen and (max-width: 420px) {
+  .auth_profile_setting_card_container {
+    margin-left: -15px !important;
+    /* margin: 0px auto !important; */
+  }
+  .auth_stng_btns{
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .auth_profile_setting_card_container .proSetting_head_div{
+    display: none;
+  }
+  .auth_stng_btns>button{
+    width: 120px;
+  }
+}
+@media screen and (max-width: 330px) {
+
 }

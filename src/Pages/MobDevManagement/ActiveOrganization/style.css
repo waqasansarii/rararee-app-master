@@ -1,20 +1,179 @@
-.management_table_container{
-    overflow-x: auto !important;
+.auth_active_org_right_md {
+  width: 72%;
+  margin-top: 30px;
+  margin-left: 30px;
 }
-.active_mange_table{
-    margin-top: 0px ;
-    overflow: auto !important;
-    /* text-align: center ; */
-    min-width: 985px !important;
+.management_table_container {
+  overflow-x: auto !important;
+  max-height: 94vh;
+  overflow-y: auto;
 }
-.active_mange_table th{
-    font-size: .8rem !important;
-    padding:15px 5px;
-    text-align: center !important;
+.active_mange_table {
+  margin-top: 0px;
+  overflow: auto !important;
+  /* text-align: center ; */
+  min-width: 1000px !important;
 }
-.active_mange_table h6{
-    font-size: .9rem !important;
+.active_mange_table th {
+  font-size: 0.8rem !important;
+  padding: 15px 5px;
+  text-align: center !important;
 }
-.active_mange_table p{
-    font-size: .8rem;
+.active_mange_table h6 {
+  font-size: 0.9rem !important;
+}
+.active_mange_table p {
+  font-size: 0.8rem;
+}
+.mob_srch_org_btn {
+  display: none;
+}
+.mob_srch_org_btn .cus_grn_btn {
+  width: 150px;
+}
+
+/* mobile view card  */
+.mobV_org_card_container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: none;
+}
+.mobV_org_card_container::-webkit-scrollbar {
+  width: 5px;
+}
+.mobV_orgCard {
+  margin-top: 15px;
+  background-color: #f5f5f7ec;
+  padding: 20px;
+}
+
+.orgCard_head {
+  display: flex;
+  justify-content: space-between;
+}
+.orgCard_info_sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 60%;
+}
+.orgInfo_head {
+  margin-bottom: 5px;
+  font-size: 0.8rem;
+  color: #5f677c;
+}
+.orgCard_info {
+  margin-top: 20px;
+}
+.mobV_orgCard .table_member_info {
+  margin-left: 0px;
+}
+.orgCard_info_sec2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 1300px) {
+  .auth_active_org_right_md {
+    width: 68%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .auth_active_org_right_md {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .auth_active_org_right_md {
+    width: 95%;
+  }
+  .auth_active_org_right_md .manage_head > h6 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .auth_active_org_right_md {
+    width: 92%;
+  }
+  .auth_active_org_right_md .management_table_container {
+    display: none;
+  }
+  .mob_srch_org_btn {
+    display: block;
+    /* text-align: end; */
+    display: flex;
+    justify-content: flex-end;
+  }
+  .mobV_org_card_container {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .orgCard_info_sec1 {
+    width: 80%;
+  }
+  .auth_active_org_right_md .um_search > input {
+    width: 90%;
+  }
+  .auth_active_org_right_md .encovision_head {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .auth_active_org_right_md {
+    width: 90%;
+  }
+  .orgCard_info_sec1 {
+    width: 90%;
+  }
+  .orgInfo_head {
+    font-size: 0.7rem;
+  }
+  .auth_active_org_right_md .proposal_view_table p,
+  .proposal_view_table,
+  h6 {
+    font-size: 0.9rem;
+  }
+  .table_member_code > p {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 400px) {
+  .auth_active_org_right_md {
+    /* margin-left: 10px; */
+    margin: 30px auto;
+  }
+  .orgCard_info_sec1 {
+    width: 100%;
+  }
+  .mobV_orgCard {
+    padding: 20px 10px;
+  }
+  .table_action_bin {
+    padding: 7.5px;
+  }
+  .orgInfo_head {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 350px) {
+ .mobV_orgCard .table_action_block{
+    width: 33px !important;
+    height: 33px;
+  }
+ .mobV_orgCard .table_action_eye{
+    width: 40px;
+  }
+}
+@media (max-width: 315px) {
+  .table_member_code > p {
+    font-size: 0.6rem;
+  }
 }

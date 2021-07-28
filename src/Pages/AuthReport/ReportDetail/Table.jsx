@@ -6,7 +6,7 @@ import updown from "../../../Assets/Group 5015.png";
 
 const Table = () => {
   return (
-    <div className="proposals_table_container">
+    <div className="proposals_table_container AR_detail_table_container">
       <table className="proposal_view_table AR_detail_table">
         <thead>
           <th>Ticket ID</th>

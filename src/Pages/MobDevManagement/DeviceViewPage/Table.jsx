@@ -25,7 +25,9 @@ const Table = () => {
                   <div className="table_member_info">
                     <h6>userName</h6>
                     <div className="table_member_code">
-                      <p style={{textDecoration:'none',color:'#5F677C'}}>gd0rfej7 </p>
+                      <p style={{ textDecoration: "none", color: "#5F677C" }}>
+                        gd0rfej7{" "}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -53,7 +55,9 @@ const Table = () => {
                   <div className="table_member_info">
                     <h6>userName</h6>
                     <div className="table_member_code">
-                      <p style={{textDecoration:'none',color:'#5F677C'}}>gd0rfej7 </p>
+                      <p style={{ textDecoration: "none", color: "#5F677C" }}>
+                        gd0rfej7{" "}
+                      </p>
                     </div>
                   </div>
                 </div>

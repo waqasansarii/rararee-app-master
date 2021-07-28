@@ -57,9 +57,9 @@ const AddAUser = () => {
           <UserDetail />
         </div>
         <div className="auth_head_btn_md add_user_btn mob_bm_btn">
-            <button className="auth_cus_wht_btn">Discard</button>
-            <button className="cus_grn_btn">Save</button>
-          </div>
+          <button className="auth_cus_wht_btn">Discard</button>
+          <button className="cus_grn_btn">Save</button>
+        </div>
       </div>
     </div>
   );

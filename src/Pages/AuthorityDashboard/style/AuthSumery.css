@@ -1,32 +1,29 @@
 .authority_container {
   display: flex;
 }
-
+.authority_left_md {
+  width: 330px;
+}
 .authority_right_md {
   margin-top: 30px;
   margin-left: 30px;
-  /* max-width: 1560px; */
   width: 72%;
-  /* height: 110vh; */
-  /* overflow-y: auto; */
 }
 .auth_mobV_sidebar_sd {
   display: none;
 }
 .auth_mobV_sidebar_sd > button > img {
   margin-top: 20px;
-  /* position: fixed; */
-  /* display: none; */
 }
 .mob_vw_togle_close {
   transform: translate3d(0px, 90px, 0px) !important;
   inset: -10px auto auto 0px !important;
   position: relative;
 }
-.dropdown-toggle{
+.auth_mobV_sidebar_sd .dropdown-toggle {
   position: absolute;
 }
-.dropdown-menu {
+.auth_mobV_sidebar_sd .dropdown-menu {
   padding: 0px !important;
   border: none !important;
 }
@@ -74,7 +71,9 @@
   margin-bottom: 20px;
 }
 .status_head select {
-  background: #ced4f5;
+  /* background: #ced4f5; */
+  background-color: #e2e4ec;
+  /* opacity: .5; */
   border: none;
   font-size: 0.8rem;
   outline: none;
@@ -86,7 +85,6 @@
   font-weight: bold;
 }
 .status_bar_chart {
-  /* height: 215px !important; */
   width: 100% !important;
   height: 31vh !important;
 }
@@ -94,7 +92,6 @@
 /* category comp  */
 .category_cont {
   margin-left: 15px;
-  /* width: 500px; */
   width: 50%;
   background-color: #f4f5f9;
   padding: 15px 30px;
@@ -124,6 +121,7 @@
   margin: 0px 5px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .cus_grn_btn > p {
   margin-bottom: 0px;
@@ -143,6 +141,7 @@
   /* width: 400px; */
   height: 32vh;
   font-size: 2rem !important;
+  /* margin-bottom: 15px; */
 }
 .prop_pie_chart_md {
   width: 52.2%;
@@ -332,6 +331,11 @@
   border-radius: 8px;
 }
 
+.mob_viewAct_img,
+.mobView_act_date {
+  display: none;
+}
+
 /* encovision summery  */
 
 .encovision_head {
@@ -356,19 +360,25 @@
 /* encovision table  */
 .encovision_table_container {
   position: relative;
-  /* min-width: 750px; */
-  max-height: 50vh;
   overflow: auto;
-  padding: 10px 0px;
+  max-height: 47vh;
+  padding: 0px 0px;
+}
+.encovision_table_container::-webkit-scrollbar {
+  width: 5px;
+}
+.encovision_table_container::-webkit-scrollbar-thumb {
+  background-color: #19c2a0;
+}
+.encovision_table_container::-webkit-scrollbar-track {
+  background-color: #bff1e7;
 }
 .table_head_clr {
   position: absolute;
   background-color: #2db59a;
   width: 100%;
   height: 48px;
-  top: 25px;
   min-width: 755px;
-  /* z-index: 000; */
 }
 .encovision_table {
   border-radius: 5px;
@@ -378,15 +388,11 @@
   text-indent: 0;
   width: 100%;
   min-width: 755px;
-  margin-top: 10px;
   font-size: 0.9em;
   text-align: center;
   overflow-x: auto;
   background-color: #f4f5f9;
-  margin-top: 20px;
   padding: 0px 15px;
-  /* position: relative; */
-  /* z-index: 999; */
 }
 .member_info {
   display: flex;
@@ -414,10 +420,8 @@
   color: white;
   text-align: start;
   position: relative;
-  /* margin-top: -10px; */
 }
 .encovision_table tbody {
-  /* background-color: #F4F5F9; */
   padding: 10px;
 }
 .encovision_table th {
@@ -431,9 +435,6 @@
 .encovision_table td {
   padding: 15px 0px;
   background-color: #efeff0;
-  /* text-align: start; */
-  /* margin-left: 10px !important; */
-  /* margin-right: 10px; */
 }
 .encovision_table td:nth-child(1) {
   border-bottom-left-radius: 8px;
@@ -477,12 +478,70 @@
   text-align: center;
 }
 
+/* encovision mobile view card  */
+
+.enco_mobView_card_container {
+  background-color: #f4f5f9;
+  box-shadow: 0px 3px 10px #00000029;
+  padding: 15px;
+  padding-top: 0px;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+.enco_mobView_card_container::-webkit-scrollbar {
+  width: 5px;
+}
+.enco_mobView_card_container::-webkit-scrollbar-thumb {
+  background-color: #19c2a0;
+}
+.enco_mobView_card_container::-webkit-scrollbar-track {
+  background-color: #bff1e7;
+}
+.enco_card_head_sec {
+  display: flex;
+  justify-content: space-between;
+}
+.enco_mobView_card {
+  background-color: #eff1f5;
+  padding: 15px;
+  margin-top: 15px;
+}
+.enco_mobView_card .table_member_info p {
+  margin-bottom: 0px;
+}
+.enco_card_head {
+  font-size: 0.8rem;
+  color: #19c2a0;
+  margin-bottom: 0px;
+}
+.enco_card_more_info {
+  display: flex;
+  justify-content: space-between;
+}
+.enco_card_infos {
+  margin-top: 20px;
+}
+.enco_card_infos > h6 {
+  margin-top: 5px;
+  color: #001758;
+}
+.enco_card_lastP {
+  color: #5f677c;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
 /* mob view sidebar animation  */
 
 /* .mob_vw_togle_close{} */
 .mob_vw_togle_close {
   /* margin-top: 50px; */
   top: 50px;
+  transition: 1.2s;
+}
+.auth_mobV_sidebar_sd .dropdown-menu {
+  transition: 1.3s;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -532,6 +591,9 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .authority_left_md {
+    width: auto;
+  }
   .auth_sidebar_sd_cont {
     display: none;
   }
@@ -553,7 +615,7 @@
   .authority_right_md {
     width: 80%;
     margin-top: 80px;
-    margin-left: 0px;
+    /* margin-left: 0px; */
   }
 }
 @media screen and (max-width: 900px) {
@@ -564,7 +626,32 @@
 @media screen and (max-width: 700px) {
   .authority_right_md {
     width: 85%;
-    margin-left: -30px;
+    margin-left: 15px;
+  }
+  .mobView_act_date,
+  .mob_viewAct_img {
+    display: block;
+  }
+  .desktop_viewAct_img,
+  .desktopview_act_date,
+  .desktopView_enco_table {
+    display: none;
+  }
+  .acitvity_head {
+    justify-content: flex-start;
+  }
+  .acitvity_head > h5 {
+    margin-left: 10px;
+    font-size: 0.9rem;
+  }
+  .mobView_act_date {
+    text-align: end;
+    color: #5f677c !important;
+  }
+  .mob_viewAct_img {
+    background-color: #c7cffa;
+    padding: 14px 8px;
+    border-radius: 8px;
   }
   .authority_right_sd {
     flex-wrap: wrap;
@@ -575,11 +662,12 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    /* margin-bottom: 15px; */
   }
   .status_container,
   .category_cont,
   .proposal_status_container {
-    width: 97%;
+    width: 100%;
   }
   .charts_headings,
   .encovision_head {
@@ -626,6 +714,114 @@
 }
 @media screen and (max-width: 450px) {
   .authority_right_md {
-    width: 95%;
+    width: 93%;
+  }
+  .charts_headings h5 {
+    font-size: 0.9rem;
+  }
+  .cus_grn_btn,
+  .deviceNumber > p {
+    font-size: 0.75rem;
+  }
+  .deviceNumber {
+    /* width: 130px; */
+    width: 40%;
+    padding: 15px 8px;
+  }
+  .device_activie_head > h5 {
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  .deviceNumber > h5,
+  .encovision_img > h5 {
+    font-size: 1rem;
+  }
+  .encovision_img > img {
+    width: 40px;
+    height: 40px;
+  }
+  .activity_list_md {
+    padding: 0px;
+  }
+  .activity_lists {
+    padding-left: 5px;
+  }
+  .enco_mobView_card_container,
+  .enco_mobView_card {
+    padding: 15px 8px;
+  }
+  .enco_mobView_card_container {
+    padding-top: 0px;
+  }
+  .enco_mobView_card .table_member_info > h6,
+  .enco_card_infos > h6 {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .enco_mobView_card .member_info > img {
+    width: 35px;
+    height: 35px;
+  }
+  .enco_mobView_card .table_member_info p {
+    font-size: 0.7rem;
+  }
+  .table_member_info img {
+    height: 15px;
+    width: 10px;
+  }
+  .table_action_block {
+    padding: 7px;
+  }
+  .table_action_eye {
+    padding: 9.7px 7px;
+  }
+  .enco_mobView_card .table_member_info > h6,
+  .enco_card_infos > h6 {
+    font-size: 0.75rem;
+  }
+  .enco_card_lastP {
+    font-size: 0.65rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .device_activity_container {
+    padding: 10px;
+  }
+  .authority_right_md > div > h5 {
+    font-size: 1rem;
+  }
+  .proposal_status_container {
+    padding: 15px;
+  }
+  .acitvity_head > h5 {
+    font-size: 0.8rem;
+  }
+  .activity_body > p,
+  .mobView_act_date {
+    font-size: 0.7rem;
+  }
+  .table_action_block {
+    padding: 7px;
+    width: 25px;
+    height: 25px;
+  }
+  .table_action_eye {
+    padding: 8px 7px;
+    width: 30px;
+  }
+  .enco_card_head,
+  .enco_mobView_card .table_member_info p {
+    font-size: 0.65rem;
+  }
+  .enco_mobView_card .table_member_info p {
+    margin-left: 2px;
+  }
+  .enco_mobView_card_container,
+  .enco_mobView_card {
+    padding: 10px 5px;
+  }
+  .enco_mobView_card_container {
+    padding-top: 0px;
   }
 }

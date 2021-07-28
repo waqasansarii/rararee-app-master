@@ -297,14 +297,18 @@
   }
   .viewProposal_head{
     width: 93%;
+    justify-content: flex-end;
   }
   .card_comment_md{
     width: 50%;
   }
+  .viewProposal_head > h6{
+    display: none;
+  }
 }
 @media screen and (max-width:800px){
   .view_propsal_right_card_conatainer{
-    margin-left: -50px;
+    margin-left: -10px;
   }
 }
 @media screen and (max-width:750px){
@@ -362,13 +366,13 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 15px;
+    margin-top: 35px;
   }
   .auth_vp_comment_md{
     max-height: 240px;
   }
   .view_propsal_right_card_conatainer{
-    width: 109%;
+    width: 97%;
   }
 }
 @media screen and (max-width:390px){

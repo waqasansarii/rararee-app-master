@@ -16,7 +16,7 @@ const Searchbar = () => {
           <input type="text" placeholder="Search an organization" />
           <p>x</p>
         </div>
-        <button className="cus_grn_btn">Search</button>
+        <button className="cus_grn_btn auth_mob_abs_btn">Search</button>
       </div>
       <div className="AR_result_md">
           <div className="ar_result_left">

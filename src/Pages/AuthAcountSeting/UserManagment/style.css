@@ -1,50 +1,109 @@
-.auth_UM_right_md{
-    margin-left: 20px;
-    margin-top: 30px;
+.auth_UM_right_md {
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 72%;
+  max-width: 1200px;
 }
-.um_search{
-    width: 100% !important;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.um_search {
+  width: 100% !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.um_search>input{
-    width: 96% ;
+.um_search > input {
+  width: 96%;
 }
-.user_m_table{
-    margin-top: 0px !important;
+.user_m_table {
+  margin-top: 0px !important;
+  min-width: 950px !important;
+  overflow: auto !important;
 }
-.cus_grn_btn>span{
-    color: white;
-    font-weight: 500;
-    font-size: 1.3rem;
+.cus_grn_btn > span {
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
-.manage_head>h6{
-    margin-bottom: 8px;
-    font-weight: 600;
-    /* margin-top: 15px; */
+.manage_head > h6 {
+  margin-bottom: 8px;
+  font-weight: 600;
+  /* margin-top: 15px; */
 }
-.manage_head>p{
-    margin-bottom: 0px;
-    color: grey;
-    font-size: .8rem;
+.manage_head > p {
+  margin-bottom: 0px;
+  color: grey;
+  font-size: 0.8rem;
 }
-.table_member_code>p{
-    margin-bottom: 0px;
-    text-decoration: underline rgba(83, 113, 255, 1);
-    color: rgba(83, 113, 255, 1);
-    margin-left: 0px ;
-    margin-top: 5px;
+.table_member_code > p {
+  margin-bottom: 0px;
+  text-decoration: underline rgba(83, 113, 255, 1);
+  color: rgba(83, 113, 255, 1);
+  margin-left: 0px;
+  margin-top: 5px;
 }
-.uM_contact_info{
-    text-align: start !important;
+.uM_contact_info {
+  text-align: start !important;
 }
-.table_action_bin{
-    padding: 10px;
-    background-color: rgb(247, 181, 181);
-    margin-left: 5px;
-    border-radius: 8px;
+.table_action_bin {
+  padding: 10px;
+  background-color: rgb(247, 181, 181);
+  margin-left: 5px;
+  border-radius: 8px;
 }
 
-.padding_edit{
-    padding-left: 12px ;
+.padding_edit {
+  padding-left: 12px;
+}
+
+/* mpbile view card  */
+.UM_card_UserInfo{
+  margin-left: 10px !important;
+}
+
+@media (max-width: 1300px) {
+  .auth_UM_right_md {
+    width: 68%;
+  }
+}
+@media (max-width: 1150px) {
+  .auth_UM_right_md {
+    width: 65%;
+  }
+}
+@media (max-width: 1050px) {
+  .auth_UM_right_md {
+    width: 95%;
+  }
+  .auth_UM_right_md .manage_head > h6 {
+    display: none;
+  }
+  .auth_UM_right_md .manage_head > p {
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 700px) {
+    .auth_UM_right_md .proposals_table_container{
+        display: none;
+    }
+    .auth_UM_right_md .manage_head > p{
+        margin-left: 43px;
+    }
+}
+@media (max-width: 580px) {
+   .auth_UM_right_md .um_search > input{
+       width: 92%;
+    }
+    .auth_UM_right_md{
+        margin: 20px auto;
+    }
+}
+@media (max-width: 450px) {
+    .um_cardUser_img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 305px) {
+    .auth_UM_right_md .um_search > input{
+        width: 90%;
+     }
 }

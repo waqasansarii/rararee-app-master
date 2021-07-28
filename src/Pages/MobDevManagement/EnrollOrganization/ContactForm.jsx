@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="auth_organize_form_container">
+    <div className="auth_organize_form_container auth_OE_Cform">
       <div className="auth_organizeForm_md auth_contact_form">
         <h6>Key Contact Details</h6>
         <div className="auth_OD_sd">

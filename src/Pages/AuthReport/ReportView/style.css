@@ -5,6 +5,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+.auth_r_view_head>h5{
+    font-weight:bold;
+    color: black;
+}
 .report_cmnt_height{
     /* max-height: 42vh; */
     max-height: 280px;
@@ -21,6 +25,10 @@
 }
 .RV_comnt_md{
     margin-top: 20px;
+}
+.rv_card_head{
+    font-weight: bold;
+    color: #001758;
 }
 .RV_card{
     width: 470px;
@@ -49,9 +57,12 @@
         margin-top: 20px;
         margin-left: 20px;
     }
-    .AR_cmnt_slider_md{
-        margin-left: -50px;
+    .auth_r_view_head>h5{
+        display: none;
     }
+    /* .AR_cmnt_slider_md{
+        margin-left: -50px;
+    } */
 }
 @media screen and (max-width:935px){
     .AR_cmnt_slider_md{
@@ -77,7 +88,7 @@
 }
 @media screen and (max-width:430px){
     .AR_cmnt_slider_md{
-        margin-left: -60px;
+        margin-left: -15px;
     }
     .RV_card{
         padding: 10px;

@@ -27,7 +27,7 @@ const ViewProposalPage = () => {
           >
             <div className="mobV_mWeb_head_md">
               <img src={togle} alt="..." />
-              {/* <h3 className="mobV_mWeb_head">Dashboard</h3> */}
+              <h3 className="mobV_mWeb_head">View Proposals Page</h3>
             </div>
           </button>
           <div

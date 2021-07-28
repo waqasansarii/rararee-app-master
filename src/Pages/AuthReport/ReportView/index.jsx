@@ -27,7 +27,7 @@ const ReportView = () => {
           >
             <div className="mobV_mWeb_head_md">
               <img src={togle} alt="..." />
-              {/* <h3 className="mobV_mWeb_head">Dashboard</h3> */}
+              <h3 className="mobV_mWeb_head">Reports View Page</h3>
             </div>
           </button>
           <div
@@ -41,8 +41,8 @@ const ReportView = () => {
       </div>
 
       <div className="auth_report_right_md">
-        <div className="">
-          <h5>Report View Page</h5>
+        <div className="auth_r_view_head">
+          <h5>Reports View Page</h5>
         </div>
         <div className="AR_cmnt_slider_md">
           <div className="RV_comnt_md">

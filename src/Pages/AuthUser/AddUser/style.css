@@ -7,12 +7,18 @@
   color: #8792af;
   margin-top: 5px;
 }
-.add_user_btn > button:nth-child(2) {
-  padding: 6px 40px;
+
+.add_user_btn>button{
+  width: 150px;
+  text-align: center;
 }
+/* .add_user_btn > button:nth-child(2) {
+  padding: 6px 40px;
+} */
 .addUser_detail_md {
   display: flex;
 }
+
 
 /* assign role  */
 
@@ -40,7 +46,7 @@
   color: #001758 !important;
 }
 .addUser_Mt .cs_tab_box .c_dot {
-  right: -80px !important;
+  right: -90px !important;
 }
 
 /* user detail  */

@@ -94,7 +94,7 @@ export default function ReportSlider() {
             freeMode={true}
             watchSlidesVisibility={true}
             watchSlidesProgress={true}
-            className="mySwiper"
+            className="mySwiper_tinyImg"
           >
             <SwiperSlide>
               <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
@@ -128,8 +128,8 @@ export default function ReportSlider() {
             </SwiperSlide>
           </Swiper>
           <div className="Ar_slider_location">
-                    <img src={location} alt="..." />
-                    <p>Area, Region, Togo, Nigeria. </p>
+            <img src={location} alt="..." />
+            <p>Area, Region, Togo, Nigeria. </p>
           </div>
         </div>
       </div>

@@ -1,6 +1,88 @@
-.auth_cp_md{
-    height: 70vh;
+.auth_cp_md {
+  height: 70vh;
 }
-.auth_cp_md h6:nth-child(1){
-    margin-bottom: 15px;
+.auth_cp_md h6:nth-child(1) {
+  margin-bottom: 15px;
+}
+@media (max-width: 1050px) {
+  .authority_secure_stng_right_md .proSetting_head_div > div > h6 {
+    display: none;
+  }
+  .auth_cp_md {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .authority_secure_stng_right_md .auth_PS_head {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 980px) {
+  .auth_cp_md {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .auth_ss_md .notifications_main_div {
+    margin-left: 20px;
+  }
+  .auth_cp_md {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 710px) {
+  .authority_secure_stng_right_md .profile_setting_inps_div {
+    flex-direction: inherit !important;
+  }
+  .authority_secure_stng_right_md .profile_setting_inp_img {
+    text-align: start;
+  }
+}
+@media screen and (max-width: 650px) {
+  .authority_secure_stng_right_md {
+    width: 90%;
+  }
+  .authority_secure_stng_right_md .profile_setting_inps_div {
+    flex-direction: column !important;
+  }
+  .auth_ss_md .notifications_main_div {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .authority_secure_stng_right_md
+    .profile_setting_inps_div
+    .notifications_main_div {
+    display: block !important;
+    /* box-shadow: ; */
+
+    background-color: #f4f5f9;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px gainsboro;
+    width: 100%;
+  }
+  .authority_secure_stng_right_md .security_change_pass {
+    background-color: #f4f5f9;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px gainsboro;
+    width: 100% !important;
+  }
+  .authority_secure_stng_right_md .profile_setting_inps,
+  .authority_secure_stng_right_md .profile_setting_inps_div {
+    margin-top: 0px;
+  }
+  .authority_secure_stng_right_md .profile_setting_inps_div {
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .authority_secure_stng_right_md .profile_setting_inps_div {
+    margin-top: 70px;
+  }
+  .authority_secure_stng_right_md {
+    margin-bottom: 20px;
+  }
 }

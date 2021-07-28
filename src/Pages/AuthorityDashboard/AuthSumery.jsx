@@ -20,6 +20,7 @@ import togle from "../../Assets/Group 5706.png";
 import togle2 from "../../Assets/Group 5707.png";
 import "./style/AuthSumery.css";
 import ProposalPieChart from "../../Components/AuthDashboardComp/ProposalPieChart";
+import EncovisionMobViewCard from "../../Components/AuthDashboardComp/EncovisionMobViewCard";
 
 const AuthSumery = () => {
   return (
@@ -189,9 +190,9 @@ const AuthSumery = () => {
             <div className="device_db_pie_chart">
               <div className="  status_container enco_pie_chart_md">
                 <div className="status_head">
-                  <h6>Problem status</h6>
+                  <h6>Test Statistics</h6>
                   <select name="" id="">
-                    <option value="">Current month</option>
+                    <option value="">No. of tests conducted</option>
                   </select>
                 </div>
                 <StatusBarChart
@@ -201,16 +202,21 @@ const AuthSumery = () => {
               </div>
               <div className="  status_container device_bar_CHART">
                 <div className="status_head">
-                  <h6>Active Devices</h6>
+                  <h6>Overall Stats</h6>
                   <select name="" id="">
-                    <option value="">Current month</option>
+                    <option value="">January 2021</option>
                   </select>
                 </div>
                 <PieChart className="prop_pie_chart" />
                 {/* <ProposalPieChart className="prop_pie_chart " /> */}
               </div>
             </div>
-            <Table />
+            <div className="mt-4">
+              <div className="desktopView_enco_table">
+                <Table />
+              </div>
+              <EncovisionMobViewCard />
+            </div>
           </div>
         </div>
       </div>

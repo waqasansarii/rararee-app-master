@@ -3,6 +3,9 @@
     margin-top: 30px;
     margin-left: 20px;
 }
+.auth_eO_btn> button{
+    width: 120px;
+}
 .auth_cus_wht_btn{
     background: transparent;
     color: #1CC09F;
@@ -87,4 +90,98 @@
 }
 .auth_OE_heading{
     margin-top: 10px;
+}
+
+@media (max-width:1260px){
+    .auth_OE_forms_md{
+        flex-wrap: wrap;
+    }
+    .auth_OE_forms_md .auth_organizeForm_md{
+        width: 400px;
+    }
+   .auth_OE_forms_md .auth_OE_Cform{
+       margin-left: 15px;
+   }
+}
+@media (max-width:1165px){
+    .auth_OE_forms_md{
+        max-height: 90vh;
+        overflow-y: auto;
+        margin-bottom: 20px;
+    }
+    .auth_OE_forms_md::-webkit-scrollbar{
+        width: 5px;
+    }
+    .auth_OE_forms_md .auth_organizeForm_md{
+        width: 450px;
+    }
+    .auth_OE_forms_md .auth_OE_Cform{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:1050px){
+    .auth_ORG_enrol_right_md{
+        width: 95%;
+    }
+    .auth_OE_forms_md{
+        max-height: 100%;
+    }
+    .auth_OE_forms_md .auth_OE_Cform{
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    .auth_OE_forms_md .auth_organizeForm_md{
+        /* width: 450px; */
+        width: 100%;
+    }
+   .auth_OE_forms_md .auth_organize_form_container{
+       width: 49%;
+   }
+    .auth_ORG_enrol_right_md .manage_head>h6{
+       display: none;
+    }
+    .auth_ORG_enrol_right_md .manage_head>p{
+         margin-top: 40px;
+         margin-left: 50px !important;
+    }
+    .auth_ORG_enrol_right_md .auth_eO_btn{
+        margin-top: -20px !important;
+    }
+}
+@media (max-width:790px){
+    .auth_OE_forms_md{
+        max-height: 95vh;
+        justify-content: center;
+        /* margin: 0px auto; */
+    }
+    .auth_OE_forms_md .auth_organize_form_container{
+        /* width: 70%; */
+        width: 420px;
+    }
+    .auth_OE_forms_md .auth_OE_Cform{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .auth_ORG_enrol_right_md .auth_eO_btn{
+        display: none !important;
+    }
+   .auth_ORG_enrol_right_md .mob_bm_btn{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 20px;
+   }
+}
+@media (max-width:400px){
+    .auth_ORG_enrol_right_md{
+        width: 92%;
+    }
+    .auth_ORG_enrol_right_md .manage_head>p{
+        margin-left: 40px !important;
+    }
+}
+@media (max-width:340px){
+    .auth_ORG_enrol_right_md .manage_head>p{
+        margin-left: 30px !important;
+    }
 }

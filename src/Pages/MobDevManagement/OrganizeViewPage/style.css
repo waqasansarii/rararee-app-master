@@ -1,165 +1,282 @@
-.organizatio_vp_right_md{
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 72%;
+.organizatio_vp_right_md {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 72%;
 }
 
-.org_vp_head h5{
-    font-weight: bold;
+.org_vp_head h5,
+.organize_vp_kccard_sd h5,
+.organize_vp_dcard_sd h5 {
+  font-weight: bold;
 }
-.key_cDCard{
-    margin-left: 20px;
-    /* width: 50%; */
+.key_cDCard {
+  margin-left: 20px;
+  /* width: 50%; */
 }
 /* cards css  */
-.organization_vp_cards_md{
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    width: 100%;
+.organization_vp_cards_md {
+  display: flex;
+  /* align-items: center; */
+  margin-top: 40px;
+  width: 100%;
 }
-.organization_vp_cards_md h6{
-    font-size: .9rem;
+.organization_vp_cards_md h6 {
+  font-size: 0.9rem;
 }
-.organization_vp_cards_md p ,.organization_vp_cards_md h6 ,.organization_vp_cards_md h5{
-    margin-bottom: 0px;
+.organization_vp_cards_md p,
+.organization_vp_cards_md h6,
+.organization_vp_cards_md h5 {
+  margin-bottom: 0px;
 }
-.organize_vp_dcard{
-    box-shadow: 0px 3px 10px #00000029;
-    border-radius: 5px;
-    padding: 20px;
-    /* width: 520px; */
-    width: 55%;
+.organize_vp_dcard {
+  box-shadow: 0px 3px 10px #00000029;
+  border-radius: 5px;
+  padding: 20px;
+  /* width: 520px; */
+  width: 55%;
 }
-.organize_vp_dcard_info{
-    display: flex;
-    align-items: flex-start;
-    margin-top: 15px;
-
+.organize_vp_dcard_info {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
 }
-.dcard_organize_info>img{
-    box-shadow: 0px 3px 10px #00000029;
-
+.dcard_organize_info > img {
+  box-shadow: 0px 3px 10px #00000029;
 }
-.organize_d_info{
-    margin-left: 10px;
+.organize_d_info {
+  margin-left: 10px;
 }
-.organize_vp_type{
-    margin-left: 30px;
+.organize_vp_type {
+  margin-left: 30px;
 }
-.organize_d_info>p,.organize_vp_type>p{
-    margin-top: 8px;
-    font-size: .75rem;
+.organize_d_info > p,
+.organize_vp_type > p {
+  margin-top: 8px;
+  font-size: 0.75rem;
 }
-.dcard_organize_info{
-    display: flex;
-    align-items:center;
+.dcard_organize_info {
+  display: flex;
+  align-items: center;
 }
-.organize_vp_dcard_addres{
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    margin-top: 20px;
-    flex-wrap: wrap;
+.organize_vp_dcard_addres {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
-.organize_vp_dcard_addres p{
-    margin-top: 6px;
-    font-size: .8rem;
+.organize_vp_dcard_addres p {
+  margin-top: 6px;
+  font-size: 0.8rem;
 }
-.underline{
-    color: #5371FF !important;
-    text-decoration: underline #5371FF;
-    font-size: .9rem;
+.underline {
+  color: #5371ff !important;
+  text-decoration: underline #5371ff;
+  font-size: 0.9rem;
 }
-.Org_vp_adrs_info{
-    width: 250px;
+.Org_vp_adrs_info {
+  width: 250px;
 }
-.organize_vp_dcard p{
-    font-size: .85rem;
-    color: #9BA3CC;
+.organize_vp_dcard p {
+  font-size: 0.85rem;
+  color: #9ba3cc;
 }
-.org_vp_card_adrs_md{
-    padding: 30px 20px;
+.org_vp_card_adrs_md {
+  padding: 30px 20px;
 }
-.org_vp_card_adrs_md .organize_vp_dcard_addres{
-    justify-content: space-between;
+.org_vp_card_adrs_md .organize_vp_dcard_addres {
+  justify-content: space-between;
 }
 
 /* card2  */
 
-.organize_vp_kccard{
-    box-shadow: 0px 3px 10px #00000029;
-    border-radius: 5px;
-    padding: 20px;
-    padding-bottom: 60px;
-    /* margin-left: 20px; */
-    width: 100%;
+.organize_vp_kccard {
+  box-shadow: 0px 3px 10px #00000029;
+  border-radius: 5px;
+  padding: 20px;
+  padding-bottom: 60px;
+  /* margin-left: 20px; */
+  width: 100%;
 }
-.org_vp_kccard_uInfo{
-    display: flex;
-    margin-top: 20px;
+.org_vp_kccard_uInfo {
+  display: flex;
+  margin-top: 20px;
 }
-.org_vp_kccard_user_contact{
-    display: flex;
-    /* justify-content: space-between; */
-    margin-top: 15px;
+.org_vp_kccard_user_contact {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 15px;
 }
-.org_vp_kccard_user_contact>div:nth-child(2){
-    margin-left: 25px;
+.org_vp_kccard_user_contact > div:nth-child(2) {
+  margin-left: 25px;
 }
 
-.org_vp_kccard_user_contact h6{
-    font-size: .9rem;
+.org_vp_kccard_user_contact h6 {
+  font-size: 0.9rem;
 }
-.org_vp_kccard_user_contact p{
-    font-size: .8rem;
-    margin-top: 8px;
+.org_vp_kccard_user_contact p {
+  font-size: 0.8rem;
+  margin-top: 8px;
 }
-.organize_vp_kccard p{
-    font-size: .9rem;
-    color: #9BA3CC;
+.organize_vp_kccard p {
+  font-size: 0.9rem;
+  color: #9ba3cc;
 }
-.org_vp_kccard_userName{
-    margin-left: 5px;
-    margin-top: 10px;
+.org_vp_kccard_userName {
+  margin-left: 5px;
+  margin-top: 10px;
 }
-.org_vp_kccard_userName>p{
-    margin-top: 10px;
-    font-size: .8rem;
+.org_vp_kccard_userName > p {
+  margin-top: 10px;
+  font-size: 0.8rem;
 }
 
 /* table section  */
 
-.org_vp_table_container{
-    overflow-y: auto;
+.org_vp_table_container {
+  overflow-y: auto;
 }
-.org_vp_tble_container{
-    max-height: 45vh;
+.org_vp_tble_container {
+  max-height: 45vh;
 }
-.org_vp_table_container::-webkit-scrollbar{
-    width: 5px ;
-    height: 0px ;
+.org_vp_table_container::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
 }
-.org_vp_tble_container::-webkit-scrollbar-thumb{
-   background-color: #19C2A0;
+.org_vp_tble_container::-webkit-scrollbar-thumb {
+  background-color: #19c2a0;
 }
-.org_vp_tble_container::-webkit-scrollbar-track{
-    background-color: #c8fdf3;
- }
-.org_vp_table_md{
-    box-shadow: 0px 3px 10px #00000029;
-    padding: 20px;
-    margin-top: 30px;
-    border-radius: 5px;
+.org_vp_tble_container::-webkit-scrollbar-track {
+  background-color: #c8fdf3;
 }
-.org_vp_table_head{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.org_vp_table_md {
+  box-shadow: 0px 3px 10px #00000029;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
 }
-.org_vp_table_head>h6{
-    margin-bottom: 0px;
+.org_vp_table_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.org_vp_table{
+.org_vp_table_head > h6 {
+  margin-bottom: 0px;
+}
+.org_vp_table {
+  margin-top: 20px;
+}
+
+@media (max-width: 1300px) {
+  .organizatio_vp_right_md {
+    width: 69%;
+    margin-bottom: 20px;
+  }
+  .organization_vp_cards_md {
+    flex-wrap: wrap;
+  }
+  .organization_vp_cards_md .organize_vp_dcard {
+    width: 600px;
+  }
+  .key_cDCard {
+    margin-left: 0px;
     margin-top: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .organizatio_vp_right_md {
+    width: 65%;
+  }
+}
+@media (max-width: 1050px) {
+  .organizatio_vp_right_md {
+    width: 95%;
+    margin-top: 32px;
+  }
+  .org_vp_head h5 {
+    display: none;
+  }
+  .organization_vp_cards_md .organize_vp_dcard {
+    width: 520px;
+  }
+  .key_cDCard {
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+  .organizatio_vp_right_md .viewProposal_head {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .organization_vp_cards_md .organize_vp_dcard {
+    width: 600px;
+  }
+  .key_cDCard {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .organizatio_vp_right_md {
+    margin: 20px auto;
+    margin-top: 30px;
+  }
+  .org_vp_table {
+    display: none;
+  }
+  .org_vp_table_head .cus_grn_btn {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .org_vp_table_md {
+    padding: 20px 8px;
+  }
+  .organization_vp_cards_md .Org_vp_adrs_info {
+    width: 350px;
+    margin-bottom: 15px;
+  }
+  .organization_vp_cards_md .organize_vp_dcard {
+    width: 450px;
+    padding: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .organization_vp_cards_md h6 {
+    font-size: 0.7rem;
+  }
+  .dcard_organize_info > img {
+    width: 40px;
+  }
+  .organize_vp_dcard p {
+    font-size: 0.7rem;
+  }
+  .organize_vp_dcard p,
+  .org_vp_kccard_userName > p {
+    font-size: 0.6rem;
+    margin-top: 2px;
+  }
+  .organize_vp_kccard p {
+    font-size: 0.7rem;
+  }
+  .org_vp_kccard_uInfo > img {
+    width: 55px;
+  }
+  .organize_vp_dcard_sd > h5,
+  .organize_vp_kccard_sd > h5 {
+    font-size: 0.9rem;
+  }
+  .key_cDCard {
+    width: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .organization_vp_cards_md .Org_vp_adrs_info {
+    width: 100%;
+  }
+}
+@media (max-width: 315px) {
+  .org_vp_table_md {
+    padding: 20px 5px;
+  }
 }

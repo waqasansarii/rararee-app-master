@@ -4,10 +4,13 @@
     margin-top: 30px;
     margin-left: 20px;
     margin-bottom: 30px;
+    width: 72%;
+    max-width: 950px;
 }
 
 .AR_table_slider_md{
     display: flex;
+    width: 100%;
 }
 
 .AR_slider_timeline_md{
@@ -29,12 +32,14 @@
     margin-left: 15px;
 }
 .auth_report_search{
-    width: 500px ;
+    /* width: 500px ; */
+    width: 50%;
     border-radius: 4px;
 }
 .AR_srch{
     margin-left: 15px;
     border-radius: 4px;
+    width: 35% !important;
 }
 .AR_result_md{
     margin-top: 20px;
@@ -74,7 +79,19 @@
 }
 
 /* table css  */
-
+.AR_table_md{
+    overflow: auto;
+}
+.AR_detail_table_container{
+    max-height: 230vh;
+    overflow-y: auto ;
+    /* border: 2px solid red; */
+    /* height: 230vh; */
+    overflow: auto !important;
+}
+.AR_detail_table_container::-webkit-scrollbar{
+    width: 5px;
+}
 .ar_user_table_info{
     display: flex;
     flex-direction: column;
@@ -92,8 +109,7 @@
     height: 20px;
 }
 .AR_detail_table{
-    min-width: 450px !important;
-    max-width: 520px !important;
+    min-width: 510px !important;
 }
 .AR_detail_table h6{
     font-size: .8rem;
@@ -125,6 +141,10 @@
     border-radius: 5px;
     padding: 20px;
     
+}
+.mySwiper_tinyImg img{
+    height: 60px;
+    width: 100px;
 }
 .AR_slider_head{
     display: flex;
@@ -273,6 +293,11 @@
     padding: 15px;
     border-radius: 4px;
 }
+.tm_check{
+    background-color: #2DB599;
+    padding: 13px 10px;
+    border-radius: 4px;
+}
 .timeline_step4_btn{
     display: flex;
     justify-content: center;
@@ -283,4 +308,149 @@
 }
 .bg_orng{
     background-color: #F86C1A;
+}
+
+/* mobile view report card  */
+.report_mobView_card_md{
+    width: 100%;
+    margin-top: 15px;
+    max-height: 100vh;
+    overflow-y: auto;
+    display: none;
+}
+.report_mobView_card_md::-webkit-scrollbar{
+    width: 5px;
+}
+.report_mobV_card{
+    background-color: #f0f0f3;
+    padding: 20px;
+    margin-top: 15px;
+}
+.report_mobV_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.report_mobV_head>h5{
+    margin-bottom: 0px;
+    color: #494949;
+}
+.report_tag{
+    border: 1pt solid #001758;
+    font-size: .9rem;
+    color: #001758;
+    padding: 5px 15px;
+    border-radius: 6px;
+    margin-bottom: 0px;
+}
+.report_card_num{
+    margin-top: 15px;
+}
+.report_card_user_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.report_card_user_info .ar_user_table_name>p{
+    margin-bottom: 0px;
+    color: #5F677C;
+}
+
+.report_mobV_card .prop_table_member_location p{
+   margin-bottom: 0px;
+} 
+
+@media screen and (max-width:1240px){
+    .auth_report_right_md{
+        width: 68%;
+    }
+}
+@media screen and (max-width:1110px){
+    .auth_report_right_md{
+        width: 66%;
+    }
+}
+@media screen and (max-width:1050px){
+    .auth_report_right_md{
+        width: 95%;
+        margin-top: 60px;
+    }
+    .auth_report_head{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+    .report_mobView_card_md{
+        display: block;
+    }
+    .AR_table_md{
+        display: none;
+    }
+    .auth_reports_search_md{
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .AR_srch,.auth_report_search{
+        width: 100% !important;
+        margin: 10px 0px;
+
+    }
+    .AR_result_md{
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .auth_mob_abs_btn{
+        position: absolute;
+       bottom: -45px;
+       right: 0px;
+       width: 130px;
+    }
+    .ar_result_left{
+        margin-top: 20px;
+    }
+    .AR_table_slider_md{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .AR_slider_timeline_md{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:450px){
+    .auth_report_right_md{
+        width: 90%;
+    }
+    .report_mobV_head>h5{
+        font-size: 1rem;
+    }
+    .proposal_view_table p, .proposal_view_table, h6{
+        font-size: .8rem;
+    }
+    .report_card_user_info .ar_user_table_name>p,.report_tag{
+        font-size: .75rem;
+    }
+    .AR_slider_timeline_md{
+        width: 100%;
+    }
+    .AR_right_slider_container,.auth_report_right_md .AR_timeline_container{
+        /* width: 350px; */
+        width: 100%;
+    }
+    .ar_result_left{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width:360px){
+    .report_mobV_card{
+        padding: 20px 10px;
+    }
+    .proposal_view_table p, .proposal_view_table, h6{
+        font-size: .65rem;
+    }
+}
+@media screen and (max-width:320px){
+    .ar_result_left{
+        font-size: .7rem;
+    }
 }
