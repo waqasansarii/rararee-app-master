@@ -53,7 +53,7 @@ export default function ReportSlider() {
             spaceBetween={10}
             navigation={true}
             thumbs={{ swiper: thumbsSwiper }}
-            className="mySwiper2"
+            className="auth_mySwiper2"
           >
             <SwiperSlide>
               <img src="https://swiperjs.com/demos/images/nature-1.jpg" />

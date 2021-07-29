@@ -156,8 +156,9 @@
 }
 .mySwiper_tinyImg img{
     height: 50px;
-    width: 100px;
+    width: 85px;
     border-radius: 8px;
+    margin-top: 10px;
 }
 .AR_slider_head{
     display: flex;
@@ -190,31 +191,29 @@
     margin-left: 10px;
     text-decoration: #19C2A0 underline;
 }
-.swiper-container {
+/* .swiper-container {
   width: 100%;
   height: 100%;
   margin-top: 20px;
-}
-.mySwiper2 img{
+} */
+.auth_mySwiper2 img{
     height: 300px;
 }
 
-.mySwiper2 .swiper-button-next, .swiper-button-prev{
+.auth_mySwiper2 .swiper-button-next, .swiper-button-prev{
     background-color: #25AC91;
     padding: 6px 10px !important;
     border-radius: 5px;
     height: max-content !important;
 
 }
-.mySwiper2 .swiper-button-next:after, .swiper-button-prev:after{
+.auth_mySwiper2 .swiper-button-next:after, .swiper-button-prev:after{
     font-size: 1.2rem !important;
 }
-.swiper-slide {
+.auth_mySwiper2 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -229,10 +228,9 @@
   align-items: center;
 }
 
-.swiper-slide img {
+.auth_mySwiper2 .swiper-slide img {
   display: block;
   width: 100%;
-  /* height: 400px; */
   object-fit: cover;
 }
 
