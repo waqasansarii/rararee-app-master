@@ -7,6 +7,7 @@ import postIcon from "../../Assets/post_icon.png";
 import addIcon from "../../Assets/add_icon.png";
 import validationIcon from "../../Assets/validationIcon.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostConOpt = () => {
   useLayoutEffect(() => {
@@ -112,6 +113,7 @@ const PostConOpt = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

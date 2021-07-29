@@ -5,6 +5,7 @@ import back from "../../Assets/Icon-arrow-right.png";
 import postIcon from "../../Assets/cn_logo.png";
 import "./PostSurvey.css";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const SurveyHealth = () => {
   useLayoutEffect(() => {
@@ -120,6 +121,7 @@ const SurveyHealth = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

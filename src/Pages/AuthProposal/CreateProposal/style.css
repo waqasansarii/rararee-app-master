@@ -1,3 +1,13 @@
+
+.auth_addUSer_right_md{
+  margin-bottom: 30px;
+}
+.auth_addUSer_right_md .manage_head>h6{
+  margin-bottom: 0px;
+}
+.add_user_mp > p{
+  margin-top: 0px;
+}
 .CP_type_md {
   height: max-content;
 }
@@ -8,6 +18,7 @@
 .pro_type_slct .cs_tab_text {
   margin-left: 10px;
 }
+
 /* .pro_type_slct .c_dot{
   right: -87px !important;
 } */
@@ -254,6 +265,20 @@
     font-size: .7rem;
   }
 }
+@media screen and (max-width:430px){
+  .auth_organizeForm_md{
+    padding: 20px 10px;
+  }
+  .auth_CDI_hW>input, .auth_CDI_hW>select{
+    font-size: .9rem;
+  }
+  .vote_option > input{
+    width: 65%;
+  }
+  .vote_option > select{
+    width: 35%;
+  }
+}
 @media screen and (max-width:400px){
   .assign_role_container{
     margin: 0px auto;
@@ -278,6 +303,9 @@
   }
   .addUser_Mt .cs_tab_box .c_dot{
     right: -63px !important;
+  }
+  .spfc_audiance > p{
+    width: 60px;
   }
 }
 @media screen and (max-width:350px){

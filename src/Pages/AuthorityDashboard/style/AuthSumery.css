@@ -71,15 +71,15 @@
   margin-bottom: 20px;
 }
 .status_head select {
-  /* background: #ced4f5; */
   background-color: #e2e4ec;
-  /* opacity: .5; */
   border: none;
   font-size: 0.8rem;
   outline: none;
   padding: 3px;
   border-radius: 5px;
+
 }
+
 .status_head h6 {
   margin-bottom: 0px;
   font-weight: bold;
@@ -380,6 +380,7 @@
   height: 48px;
   min-width: 755px;
 }
+
 .encovision_table {
   border-radius: 5px;
   margin-bottom: 0px !important;
@@ -420,6 +421,7 @@
   color: white;
   text-align: start;
   position: relative;
+  
 }
 .encovision_table tbody {
   padding: 10px;
@@ -428,6 +430,7 @@
   padding: 15px 0px;
   padding-top: 5px;
   padding-bottom: 5px;
+  
 }
 .encovision_table th:nth-child(1) {
   padding-left: 20px;
@@ -487,6 +490,7 @@
   padding-top: 0px;
   max-height: 100vh;
   overflow-y: auto;
+  display: none;
 }
 .enco_mobView_card_container::-webkit-scrollbar {
   width: 5px;
@@ -628,6 +632,9 @@
     width: 85%;
     margin-left: 15px;
   }
+  .enco_mobView_card_container{
+    display: block;
+  }
   .mobView_act_date,
   .mob_viewAct_img {
     display: block;
@@ -698,7 +705,7 @@
   }
   .deviceNumber {
     width: 160px;
-    margin: 10px 10px;
+    margin: 20px 10px;
     margin-bottom: 0px;
   }
   .mobV_mWeb_head_md {
@@ -714,7 +721,9 @@
 }
 @media screen and (max-width: 450px) {
   .authority_right_md {
-    width: 93%;
+    width: 92%;
+    margin:70px auto ;
+    margin-bottom: 20px;
   }
   .charts_headings h5 {
     font-size: 0.9rem;

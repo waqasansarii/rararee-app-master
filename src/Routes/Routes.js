@@ -149,7 +149,7 @@ const Routes = () => {
           <Route path='/user-detail' component={UserDetail} />
           <Route  path='/device-view' component={DeviceView} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </React.Fragment>
   );

@@ -53,7 +53,7 @@ const AuthorityProposalCard = ({ headColor, progres, percent, margin }) => {
         <div className={`auth_view_proposal_card ${margin} `}>
           <div className={`auth_card_M_head ${headColor}`}>
             <h5 className="auth_card_head">Proposal Head</h5>
-            <button className="auth_ongoing"> Ongoing</button>
+            <button className="auth_ongoing"> Completed</button>
           </div>
           {/* <div className="auth_ongoing_bd">
           </div> */}

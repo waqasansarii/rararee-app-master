@@ -6,6 +6,7 @@ import hoverImg from "../../Assets/Group 3531.png";
 import i from "../../Assets/Icon awesome-info-circle.png";
 import mobHover from "../../Assets/Group 5381.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostSurveyReward = () => {
   useLayoutEffect(() => {
@@ -68,6 +69,7 @@ const PostSurveyReward = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

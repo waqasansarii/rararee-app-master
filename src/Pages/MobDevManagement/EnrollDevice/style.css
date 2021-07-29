@@ -6,6 +6,8 @@
 }
 .enrol_search_boxes {
   display: flex;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .enrol_search_boxes > div:nth-child(2) {
   margin-left: 10px;
@@ -15,6 +17,7 @@
   position: absolute;
   right: 20px;
   color: #5f677c;
+  font-weight: 500;
 }
 .device_location_search {
   display: flex;

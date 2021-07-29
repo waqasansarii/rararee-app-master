@@ -208,7 +208,8 @@
 .vp_export>p{
     margin-left: 10px;
     font-size: .9rem;
-    color: #001758;
+    color: #001758 !important; 
+    font-weight: bold;
 }
 .auth_vp_charts_boxes{
     box-shadow: 0px 3px 10px #00000029;
@@ -347,6 +348,15 @@
     width: 100%;
     margin: 20px auto;
   }
+  .loc_pols_sec{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .loc_pols_sec .auth_vL{
+    margin: 0px;
+    margin-top: 5px;
+  }
   .auth_view_proposal_card{
     width: 100%;
     margin: 20px auto;
@@ -375,6 +385,23 @@
     width: 97%;
   }
 }
+@media screen and (max-width:420px){
+  .auth_vp_date{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .auth_vp_date .auth_duration_div{
+    width: 200px;
+    margin: 0px auto;
+  }
+  .auth_vp_c > p{
+    margin-top: 0px;
+  }
+  .auth_vp_hcs{
+    margin-top: 15px;
+  }
+}
 @media screen and (max-width:390px){
   .auth_vp_likes > button > p,.auth_view_proposal_card .auth_card_date{
    font-size: .65rem;
@@ -384,10 +411,6 @@
   }
   .feedback_sd{
     padding: 15px 12px;
-  }
-  .auth_vp_date{
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
 @media screen and (max-width:370px){

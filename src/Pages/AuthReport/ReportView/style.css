@@ -45,6 +45,9 @@
     margin: 20px 0px !important;
     height: 30vh;
 }
+.rVp_mobV_userInfo{
+    display: none !important;
+}
 
 @media screen and (max-width:1260px){
     .report_view_tL{
@@ -84,6 +87,12 @@
     .AR_timeline_container{
         margin: 0px auto;
         width: 93%;
+    }
+    .rVp_mobV_userInfo{
+        display: block !important;
+    }
+    .rVp_deskV_userInfo{
+        display: none !important;
     }
 }
 @media screen and (max-width:430px){

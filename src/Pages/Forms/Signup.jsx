@@ -1,5 +1,6 @@
 import React, { useState, useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 import "./Forms.css";
 // assets
 import signupLogo from "../../Assets/s_logo.png";
@@ -190,6 +191,7 @@ const Signup = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

@@ -6,6 +6,7 @@ import greenDot from "../../Assets/greendot.png";
 import bike from "../../Assets/undraw_indoor_bike_pwa4.png";
 import car from "../../Assets/undraw_navigator_a479.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostSurveyTemplate = () => {
   const [show, setShow] = useState(false);
@@ -103,6 +104,7 @@ const PostSurveyTemplate = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

@@ -8,6 +8,10 @@ import search from "../../../Assets/Icon feather-search.png";
 import "./style.css";
 import MobViewUserMngCard from "./MobViewUserMngCard";
 const UserManagement = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
       <div className="authority_left_md">

@@ -102,6 +102,9 @@
   }
   .userDetail_right_md{
     width: 100%;
+    margin: 80px auto;
+    margin-bottom: 20px;
+    padding: 0px;
   }
   .ud_Name{
     flex-wrap: wrap;
@@ -110,29 +113,29 @@
     text-align: center;
   }
   .auth_user_detail_card{
-    width: 350px;
+    width: 92%;
+  }
+  .userDetail_right_md .auth_ud_btns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .userDetail_right_md .auth_ud_btns button{
+    width: 180px;
+    margin-top: 15px;
+    margin-right: 0px ;
   }
   .auth_user_detail_card{
     padding: 20px 10px;
   }
 }
 @media screen and (max-width:380px){
-  .auth_user_detail_card{
-    width: 300px;
-  }
+  
   .ud_more_info h6{
     font-size: .62rem;
     font-weight: bold;
   }
   .ud_more_info p{
     font-size: .6rem;
-  }
-}
-@media screen and (max-width:380px){
-  .auth_user_detail_card{
-    width: 270px;
-  }
-  .orng_btn,.red_btn{
-    font-size: .8rem;
   }
 }

@@ -22,7 +22,7 @@ const UserDetail = () => {
                 //   value='+92'
                 defaultValue="+92"
               />
-              <input type="number" />
+              <input type="number" placeholder='Contact Phone Number' />
             </div>
             <input
               className="auth_OEI_FW"

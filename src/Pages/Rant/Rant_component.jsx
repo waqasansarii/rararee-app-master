@@ -9,7 +9,7 @@ import FavoriteOutlinedIcon from "@material-ui/icons/FavoriteOutlined";
 import ChatBubbleIcon from "@material-ui/icons/ChatBubble";
 
 import { FaShare } from "react-icons/fa";
-function proposal_component({className,className2}) {
+function proposal_component({ className, className2 }) {
   return (
     <div className={`Rant_component_card ${className}`}>
       <Card
@@ -97,7 +97,11 @@ function proposal_component({className,className2}) {
       </Card>
 
       <div className="Rcomments">
-        <input className="Rinput_comment" placeholder="Post a Comment " style={{outline:'none'}}></input>
+        <input
+          className="Rinput_comment"
+          placeholder="Post a Comment "
+          style={{ outline: "none" }}
+        ></input>
         <div className="Rhr_space" style={{ paddingLeft: "1px" }}>
           <span
             className="Rhr_space"

@@ -13,7 +13,7 @@ const ProposalDetail = () => {
             <input
               className="auth_OEI_FW"
               type="email"
-              placeholder="Email Address"
+              placeholder="Title of the proposal"
             />
             <textarea
               className="auth_OEI_FW"
@@ -21,6 +21,7 @@ const ProposalDetail = () => {
               id=""
               cols="30"
               rows="6"
+              placeholder='Proposal Description'
             ></textarea>
           </div>
         </div>
@@ -40,7 +41,7 @@ const ProposalDetail = () => {
           </div>
         </div>
         <div className="auth_organizeForm_md auth_OE_CF">
-          <h6 className="auth_OE_heading">User Image</h6>
+          <h6 className="auth_OE_heading">Region of interest</h6>
           <input
             className="auth_OEI_FW"
             type="email"

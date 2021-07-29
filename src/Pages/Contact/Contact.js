@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import Footer from "../../Layout/Footer";
 // assets
 
 import lgLogo from "../../Assets/cn_logo.png";
@@ -65,7 +66,6 @@ const Contact = () => {
                 </button>
               </div>
             </form>
-         
           </div>
         </div>
         <div className="login_img_content">
@@ -78,6 +78,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

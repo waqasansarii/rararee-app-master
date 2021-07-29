@@ -1,15 +1,16 @@
-import React, { useState,useLayoutEffect } from "react";
+import React, { useState, useLayoutEffect } from "react";
 import { useHistory } from "react-router";
 
 // assets
 import postIcon from "../../Assets/post_icon.png";
 import IconCalendar from "../../Assets/Icon awesome-calendar.png";
 import greenDot from "../../Assets/dot.png";
+import Footer from "../../Layout/Footer";
 
 const ParticipatoryTime = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
-  },[]);
+  }, []);
 
   const [show, setShow] = useState("1");
   const history = useHistory();
@@ -201,6 +202,7 @@ const ParticipatoryTime = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

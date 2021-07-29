@@ -11,6 +11,10 @@ import togle from "../../../Assets/Group 5706.png";
 import togle2 from "../../../Assets/Group 5707.png";
 
 const ReportDetailTwo = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
       <div className="authority_left_md">
@@ -41,7 +45,7 @@ const ReportDetailTwo = () => {
       </div>
       <div className="auth_report_right_md">
         <div className="auth_report_head">
-          <h5>Proposals</h5>
+          <h5>Report Detail Page</h5>
         </div>
         <Searchbar />
         <div className="AR_table_slider_md">

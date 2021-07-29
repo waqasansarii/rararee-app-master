@@ -8,8 +8,12 @@ import togle from "../../../Assets/Group 5706.png";
 import togle2 from "../../../Assets/Group 5707.png";
 import MobViewCard from "./MobViewCard";
 const AuthViewProposal = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-   <div className="authority_container">
+    <div className="authority_container">
       <div className="authority_left_md">
         <div className="auth_sidebar_sd_cont">
           <Sidebar />

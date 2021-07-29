@@ -2,6 +2,7 @@
 .auth_ORG_enrol_right_md{
     margin-top: 30px;
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 .auth_eO_btn> button{
     width: 120px;
@@ -178,6 +179,9 @@
     }
     .auth_ORG_enrol_right_md .manage_head>p{
         margin-left: 40px !important;
+    }
+    .auth_CDI_hW>input, .auth_CDI_hW>select{
+        font-size: .75rem !important;
     }
 }
 @media (max-width:340px){

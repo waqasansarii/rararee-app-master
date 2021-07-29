@@ -7,9 +7,9 @@ import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css";
 import "swiper/components/thumbs/thumbs.min.css";
 // assets
-import block from "../../../Assets/Icon metro-blocked.png";
+import block from "../../../Assets/Group 5009.png";
 import eye from "../../../Assets/Icon awesome-eyeg.png";
-import bin from "../../../Assets/Icon metro-bin.png";
+import bin from "../../../Assets/Icon awesome-user-edit.png";
 import location from "../../../Assets/Icon material-location-on.png";
 
 // import "./styles.css";
@@ -32,7 +32,7 @@ export default function ReportSlider() {
             <div className="AR_slider_head_img">
               <img className="table_action_eye" src={eye} alt="..." />
               <img className="table_action_block " src={block} alt="..." />
-              <img className="table_action_bin" src={bin} alt="..." />
+              <img className="slider_action_user" src={bin} alt="..." />
             </div>
           </div>
           <div className="AR_slider_para">

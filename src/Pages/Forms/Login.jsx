@@ -1,8 +1,8 @@
 import React, { useState, useLayoutEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 import "./Forms.css";
 // assets
-
 import lgLogo from "../../Assets/lg_logo.png";
 import fbIcon from "../../Assets/fb_icon.png";
 import gmailIcon from "../../Assets/gmail_icon.png";
@@ -181,6 +181,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

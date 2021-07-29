@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
 import Sidebar from "../../../Components/AuthDashboardComp/Sidebar";
-// import Searchbar from "./Searchbar";
-// import Table from "../ReportDetail/Table";
-// import ReportSlider from "./Slider";
+
 import ReportTimeline from "../ReportDetail/Timeline";
 import ProposalComponent from "../../Rant/Rant_component";
 import ReportMapCard from "./ReportMapCard";
@@ -11,9 +9,13 @@ import ReportMapCard from "./ReportMapCard";
 import togle from "../../../Assets/Group 5706.png";
 import togle2 from "../../../Assets/Group 5707.png";
 const ReportView = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
-     <div className="authority_left_md">
+      <div className="authority_left_md">
         <div className="auth_sidebar_sd_cont">
           <Sidebar />
         </div>

@@ -4,7 +4,7 @@
 .authority_acc_stng_right_md {
   margin-top: 20px;
   margin-left: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .auth_stng_btns{
   display: none;
@@ -18,9 +18,9 @@
   color: black;
 }
 @media screen and (max-width: 1050px) {
-}
-.authority_acc_stng_right_md {
-  margin-top: 70px;
+  .authority_acc_stng_right_md {
+    margin-top: 70px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -29,26 +29,20 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 699px) {
-}
-@media screen and (max-width: 420px) {
-  .auth_profile_setting_card_container {
-    margin-left: -15px !important;
-    /* margin: 0px auto !important; */
-  }
-  .auth_stng_btns{
-    display: block;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .auth_profile_setting_card_container .proSetting_head_div{
-    display: none;
-  }
-  .auth_stng_btns>button{
-    width: 120px;
-  }
-}
-@media screen and (max-width: 330px) {
-
+@media screen and (max-width: 450px) {
+   .authority_acc_stng_right_md{
+     margin: 70px auto;
+   }
+   .auth_stng_btns{
+     display: block;
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+   }
+   .auth_profile_setting_card_container .proSetting_head_div{
+     display: none;
+   }
+   .auth_stng_btns>button{
+     width: 120px;
+   }
 }

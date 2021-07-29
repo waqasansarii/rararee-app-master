@@ -5,6 +5,7 @@ import "./Post.css";
 import postIcon from "../../Assets/post_icon.png";
 import pMap from "../../Assets/pmap.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostReport = () => {
   useLayoutEffect(() => {
@@ -60,6 +61,7 @@ const PostReport = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

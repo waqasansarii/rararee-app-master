@@ -6,6 +6,7 @@ import postIcon from "../../Assets/post_icon.png";
 import IconCalendar from "../../Assets/Icon awesome-calendar.png";
 import greenDot from "../../Assets/dot.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostConsensusTime = () => {
   useLayoutEffect(() => {
@@ -174,6 +175,7 @@ const PostConsensusTime = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

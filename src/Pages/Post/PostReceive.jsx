@@ -4,6 +4,7 @@ import "./Post.css";
 // assets
 import receiveTick from "../../Assets/receive_tick.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostReceive = () => {
   useLayoutEffect(() => {
@@ -38,6 +39,7 @@ const PostReceive = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

@@ -23,8 +23,13 @@ import ProposalPieChart from "../../Components/AuthDashboardComp/ProposalPieChar
 import EncovisionMobViewCard from "../../Components/AuthDashboardComp/EncovisionMobViewCard";
 
 const AuthSumery = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
+      {/* sidebar start  */}
       <div className="authority_left_md">
         <div className="auth_sidebar_sd_cont">
           <Sidebar />
@@ -51,7 +56,8 @@ const AuthSumery = () => {
           </div>
         </div>
       </div>
-
+      {/* sidebar end  */}
+      {/* right content compoent  start */}
       <div className="authority_right_md">
         <div>
           <h5>Rant/Rave Report Summary</h5>
@@ -155,7 +161,7 @@ const AuthSumery = () => {
           <div className="device_db_pie_chart">
             <div className="  status_container device_bar_CHART">
               <div className="status_head">
-                <h6>Active Devices</h6>
+                <h6>Devices Platform</h6>
               </div>
               <StatusBarChart
                 doOption
@@ -165,7 +171,7 @@ const AuthSumery = () => {
             </div>
             <div className="category_cont device_pie_chart_md">
               <div className="status_head">
-                <h6>Device Type</h6>
+                <h6>App Usage</h6>
               </div>
               <PieChart className="prop_pie_chart" />
             </div>

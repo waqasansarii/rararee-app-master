@@ -142,9 +142,22 @@
     padding: 20px;
     
 }
+.AR_right_slider_container .table_action_block{
+    padding-top: 11px;
+    padding-bottom: 7px;
+}
+.slider_action_user{
+    /* height: 60px; */
+    background-color: #ced5e9;
+    padding:10px 8px;
+    border-radius: 8px;
+    margin-left: 6px;
+    padding-left: 10px;
+}
 .mySwiper_tinyImg img{
-    height: 60px;
+    height: 50px;
     width: 100px;
+    border-radius: 8px;
 }
 .AR_slider_head{
     display: flex;
@@ -245,6 +258,7 @@
 }
 .step1Head>h6{
     color: #19C2A0;
+    font-weight: 500;
 }
 .step1Head>p{
     font-size: .8rem;
@@ -420,6 +434,9 @@
 @media screen and (max-width:450px){
     .auth_report_right_md{
         width: 90%;
+    }
+    .mySwiper_tinyImg img{
+        height: 40px;
     }
     .report_mobV_head>h5{
         font-size: 1rem;

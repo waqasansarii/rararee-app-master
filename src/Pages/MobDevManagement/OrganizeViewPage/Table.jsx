@@ -8,7 +8,7 @@ import bin from "../../../Assets/Icon metro-bin.png";
 const Table = () => {
   return (
     // <div>
-    <div className="management_table_container org_vp_tble_container ">
+    <div className=" org_vp_tble_container ">
       <table className="proposal_view_table enroll_D_table">
         <thead>
           <th>Device IMEI/ID</th>

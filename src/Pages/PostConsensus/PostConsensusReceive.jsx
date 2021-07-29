@@ -7,6 +7,7 @@ import greenDot from "../../Assets/dot.png";
 import IconHandPaper from "../../Assets/Icon awesome-hand-paper.png";
 import location from "../../Assets/location.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostConsensusReceive = () => {
   useLayoutEffect(() => {
@@ -75,6 +76,7 @@ const PostConsensusReceive = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

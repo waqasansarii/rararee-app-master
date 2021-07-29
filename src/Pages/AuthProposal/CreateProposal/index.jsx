@@ -7,6 +7,10 @@ import "./style.css";
 import togle from "../../../Assets/Group 5706.png";
 import togle2 from "../../../Assets/Group 5707.png";
 const AuthCreateProposal = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
       <div className="authority_left_md">
@@ -54,9 +58,9 @@ const AuthCreateProposal = () => {
           <ProposalDetail />
         </div>
         <div className="auth_head_btn_md add_user_btn mob_bm_btn">
-            <button className="auth_cus_wht_btn">Discard</button>
-            <button className="cus_grn_btn">Save</button>
-          </div>
+          <button className="auth_cus_wht_btn">Discard</button>
+          <button className="cus_grn_btn">Save</button>
+        </div>
       </div>
     </div>
   );

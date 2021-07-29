@@ -109,3 +109,8 @@
     font-size: .8rem;
   }
 }
+@media screen and (max-width:450px){
+  .auth_proposal_card{
+    width: 100%;
+  }
+}

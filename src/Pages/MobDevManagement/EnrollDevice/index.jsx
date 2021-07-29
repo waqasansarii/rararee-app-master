@@ -7,8 +7,13 @@ import togle from "../../../Assets/Group 5706.png";
 import togle2 from "../../../Assets/Group 5707.png";
 import search from "../../../Assets/Icon feather-search.png";
 import location from "../../../Assets/Icon feather-map-pin.png";
+import cross from "../../../Assets/Group 5030.png";
 import "./style.css";
 const EnrollDevices = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
       <div className="authority_left_md">
@@ -63,7 +68,8 @@ const EnrollDevices = () => {
           <div className="searhc_proposal_md device_location_search">
             <img src={location} alt="..." />
             <input type="text" placeholder="Search an organization" />
-            <p>x</p>
+            {/* <p>x</p> */}
+            <img src={cross} alt="..." />
           </div>
         </div>
         <div className="mob_srch_org_btn">

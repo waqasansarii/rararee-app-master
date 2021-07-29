@@ -1,17 +1,21 @@
 import React from "react";
 import Sidebar from "../../../Components/AuthDashboardComp/Sidebar";
 import Table from "./Table";
+import MObViewOrgCard from "./MObViewOrgCard";
 // assets
 import togle from "../../../Assets/Group 5706.png";
 import togle2 from "../../../Assets/Group 5707.png";
 import search from "../../../Assets/Icon feather-search.png";
 import "./style.css";
-import MObViewOrgCard from "./MObViewOrgCard";
 
 const ActiveOrganization = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
-     <div className="authority_left_md">
+      <div className="authority_left_md">
         <div className="auth_sidebar_sd_cont">
           <Sidebar />
         </div>
@@ -51,7 +55,7 @@ const ActiveOrganization = () => {
           <input type="text" placeholder="Search an organization" />
         </div>
         <div className="mob_srch_org_btn">
-          <button className='cus_grn_btn'>Search</button>
+          <button className="cus_grn_btn">Search</button>
         </div>
         <Table />
         <MObViewOrgCard />

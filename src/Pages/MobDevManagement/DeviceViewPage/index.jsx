@@ -17,6 +17,10 @@ import togle2 from "../../../Assets/Group 5707.png";
 import MobViewDeviceCard from "./MobViewDeviceCard";
 
 const DeviceView = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
       <div className="authority_left_md">

@@ -7,6 +7,7 @@ import undrawFeeling from "../../Assets/undraw_feeling.png";
 import undrawHappy from "../../Assets/undraw_happy.png";
 import greenDot from "../../Assets/greendot.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostHome = () => {
   const [show, setShow] = useState(true);
@@ -104,6 +105,7 @@ const PostHome = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

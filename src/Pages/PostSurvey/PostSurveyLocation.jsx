@@ -4,6 +4,7 @@ import "./PostSurvey.css";
 import postIcon from "../../Assets/cn_logo.png";
 import pMap from "../../Assets/pmap.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostSurveyLocation = (props) => {
   useLayoutEffect(() => {
@@ -60,6 +61,7 @@ const PostSurveyLocation = (props) => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

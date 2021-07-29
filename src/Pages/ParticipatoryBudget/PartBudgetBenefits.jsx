@@ -1,6 +1,7 @@
-import React,{useLayoutEffect} from "react";
+import React, { useLayoutEffect } from "react";
 import { useHistory } from "react-router";
 import "./ParticipatoryBudget.css";
+import Footer from "../../Layout/Footer";
 
 // assets
 import undrawVoting from "../../Assets/undraw_voting.png";
@@ -9,7 +10,7 @@ import validationIcon from "../../Assets/validationIcon.png";
 const PartBudgetBenefits = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
-  },[]);
+  }, []);
 
   const history = useHistory();
 
@@ -46,9 +47,9 @@ const PartBudgetBenefits = () => {
             </div>
           </div>
           <div className="consensus_validation">
-              <img className="me-2" src={validationIcon} alt="..." />
-              <span className="fs-6">Any front end error!</span>
-            </div>
+            <img className="me-2" src={validationIcon} alt="..." />
+            <span className="fs-6">Any front end error!</span>
+          </div>
           <div className="pcontinue_btn">
             <button
               className="cus_width100 text_bluegreen bg_white border_solid bluegreen_border"
@@ -69,6 +70,7 @@ const PartBudgetBenefits = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

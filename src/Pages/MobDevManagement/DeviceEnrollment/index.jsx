@@ -1,14 +1,18 @@
 import React from "react";
-import Sidebar from '../../../Components/AuthDashboardComp/Sidebar'
+import Sidebar from "../../../Components/AuthDashboardComp/Sidebar";
 import DeviceDetail from "./DeviceDetail";
-import SelectOrg from './SelectOrg'
-import error from '../../../Assets/validationIcon.png'
+import SelectOrg from "./SelectOrg";
+import error from "../../../Assets/validationIcon.png";
 import "./style.css";
 // assets
 import togle from "../../../Assets/Group 5706.png";
 import togle2 from "../../../Assets/Group 5707.png";
 
 const DeviceEnrollment = () => {
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="authority_container">
       <div className="authority_left_md">
@@ -48,16 +52,16 @@ const DeviceEnrollment = () => {
           </p>
         </div>
         <div className="device_enrol_cards_md">
-            <SelectOrg />
-            <DeviceDetail />
+          <SelectOrg />
+          <DeviceDetail />
         </div>
         <div className="DE_error">
           <img src={error} alt="..." />
           <p>Frontend error</p>
         </div>
         <div className="DE_next_btns_md">
-          <button className='auth_cus_wht_btn'>Discard</button>
-          <button className='cus_grn_btn'>Send invite</button>
+          <button className="auth_cus_wht_btn">Discard</button>
+          <button className="cus_grn_btn">Send invite</button>
         </div>
       </div>
     </div>

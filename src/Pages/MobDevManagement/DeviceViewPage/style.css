@@ -1,3 +1,6 @@
+.dd_vp_right_md{
+  margin-bottom: 50px !important;
+}
 .arrow_link {
   text-decoration: none;
   display: flex;
@@ -318,6 +321,10 @@
     width: 200px;
     margin-top: 15px;
   }
+ .dd_vp_right_md .org_vp_kccard_user_contact{
+  width: 80%;
+  justify-content: space-between;
+ }
 }
 @media (max-width: 400px) {
   .Org_dd_vp_md h6 {
@@ -345,4 +352,8 @@
   .dcard_organize_info {
     align-items: flex-start;
   }
+  .dd_vp_right_md .org_vp_kccard_user_contact{
+    width: 90%;
+    justify-content: space-between;
+   }
 }

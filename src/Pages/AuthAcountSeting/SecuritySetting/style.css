@@ -1,6 +1,10 @@
 .auth_cp_md {
   height: 70vh;
 }
+.authority_secure_stng_right_md{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .auth_cp_md h6:nth-child(1) {
   margin-bottom: 15px;
 }
@@ -54,8 +58,6 @@
     .profile_setting_inps_div
     .notifications_main_div {
     display: block !important;
-    /* box-shadow: ; */
-
     background-color: #f4f5f9;
     padding: 15px 20px;
     border-radius: 8px;
@@ -77,11 +79,29 @@
     background-color: transparent;
     box-shadow: none;
   }
+ .authority_secure_stng_right_md .profile_setting_inps_div{
+   padding-bottom: 10px !important;
+ }
+  .auth_cp_md{
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* .auth_cp_md{
+    margin: 70px auto;
+  } */
+  .authority_secure_stng_right_md{
+    margin: 70px auto;
+  }
 }
 @media screen and (max-width: 420px) {
-  .authority_secure_stng_right_md .profile_setting_inps_div {
+  /* .authority_secure_stng_right_md .profile_setting_inps_div {
     margin-top: 70px;
-  }
+  } */
+ .authority_secure_stng_right_md .profile_setting_inps_div{
+   width: 100%;
+ }
   .authority_secure_stng_right_md {
     margin-bottom: 20px;
   }

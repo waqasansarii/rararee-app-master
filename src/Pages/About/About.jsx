@@ -4,6 +4,7 @@ import "./About.css";
 //assets
 import aboutRec1 from "../../Assets/about_rec1.png";
 import aboutRec2 from "../../Assets/about_rec2.png";
+import Footer from "../../Layout/Footer";
 const About = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -51,6 +52,7 @@ const About = () => {
         </div>
       </div>
       <JoinCommunity />
+      <Footer />
     </React.Fragment>
   );
 };

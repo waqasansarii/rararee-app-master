@@ -1,6 +1,7 @@
 import React, { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Footer from "../../Layout/Footer";
 import "./Forms.css";
 // assets
 import xSmallIcon from "../../Assets/Group 26@2x.png";
@@ -88,6 +89,7 @@ const Forget = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

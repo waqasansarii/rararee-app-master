@@ -1,4 +1,5 @@
 import React, { useLayoutEffect } from "react";
+import Footer from "../../Layout/Footer";
 import "./Pricing.css";
 
 // Import Swiper React components
@@ -569,6 +570,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

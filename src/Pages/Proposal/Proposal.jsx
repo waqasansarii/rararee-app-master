@@ -14,6 +14,7 @@ import shareIcon from "../../Assets/Icon awesome-share.png";
 import ProposalRightComponent from "./ProposalRightComponent/ProposalRightComponent";
 import ProposalRighBottom from "./ProposalRightComponent/ProposalRightBottom";
 import { useHistory } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const Proposal = () => {
   let history = useHistory();
@@ -64,8 +65,8 @@ const Proposal = () => {
                 </h4>
                 <div>
                   <div className="kp_h pp_h">
-                    <button 
-                    className="border_solid bluegreen_border"
+                    <button
+                      className="border_solid bluegreen_border"
                       style={{
                         border: "1px solid grey",
                         fontSize: ".8rem",
@@ -74,9 +75,7 @@ const Proposal = () => {
                       }}
                     >
                       <img src={greenDot} alt="img" />
-                      <span className="text_bluegreen">
-                        Ongoing
-                      </span>
+                      <span className="text_bluegreen">Ongoing</span>
                     </button>
                   </div>
                 </div>
@@ -221,6 +220,7 @@ const Proposal = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

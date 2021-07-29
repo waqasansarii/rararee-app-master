@@ -7,6 +7,7 @@ import undrawInvesting from "../../Assets/undraw_Investing_re.png";
 import undrawAgreement from "../../Assets/undraw_Agreement_re_.png";
 import greenDot from "../../Assets/greendot.png";
 import { Link } from "react-router-dom";
+import Footer from "../../Layout/Footer";
 
 const PostProposal = () => {
   useLayoutEffect(() => {
@@ -113,6 +114,7 @@ const PostProposal = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };
