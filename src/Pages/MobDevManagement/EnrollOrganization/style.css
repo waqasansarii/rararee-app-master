@@ -100,7 +100,18 @@
 .auth_OE_heading {
   margin-top: 10px;
 }
+@media (min-width: 1350px) {
+  .auth_ORG_enrol_right_md{
+    max-width: 100%;
+  }
+  .auth_OE_forms_md{
+    width: 99%;
+  }
+.auth_organize_form_container{
+  width: 50%;
+}
 
+}
 @media (max-width: 1260px) {
   .auth_OE_forms_md {
     flex-wrap: wrap;

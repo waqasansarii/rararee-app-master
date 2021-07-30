@@ -56,7 +56,7 @@ const AddAUser = () => {
             looking to deploy Rarare App Services.
           </p>
         </div>
-        <div className="addUser_detail_md">
+        <div className="addUser_detail_md auth_UA_main">
           <AssignRole />
           <UserDetail />
         </div>

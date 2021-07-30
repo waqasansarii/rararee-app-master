@@ -170,6 +170,32 @@
   min-width: 520px !important;
 }
 
+@media (min-width: 1350px) {
+  .dd_vp_right_md{
+    max-width: 100%;
+  }
+  .device_vp_cards_md{
+    width: 100%;
+  }
+  .auth_dvPage_cards_md{
+    width: 40%;
+  }
+  .DD_vp_table_cont{
+    width: 60%;
+  }
+  .device_DP_container,.Org_dd_vp_md{
+    max-width: 100%;
+  }
+  .DD_vp_table_md{
+    width: 100%;
+  }
+  .device_control_md{
+    width: 50%;
+  }
+  .access_control_md{
+    width: 50%;
+  }
+}
 @media (max-width: 1330px) {
   .device_control_md button {
     font-size: 0.8rem;

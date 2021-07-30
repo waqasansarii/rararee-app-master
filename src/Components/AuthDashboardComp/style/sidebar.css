@@ -89,6 +89,12 @@
   margin-left: 10px;
 }
 
+@media (min-width: 1350px) {
+  .auth_sidebar_container{
+    width: 27%;
+  }
+  
+}
 @media (max-width: 1050px) {
   .auth_sidebar_container {
     /* position: inherit !important; */

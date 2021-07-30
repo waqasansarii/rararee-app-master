@@ -49,6 +49,20 @@
     display: none !important;
 }
 
+@media screen and (min-width:1350px){
+    .AR_cmnt_slider_md{
+        width: 100%;
+    }
+    .report_view_tL{
+        width: 46%;
+    }
+    .RV_comnt_md{
+        width: 50%;
+    }
+    .RV_card,.report_comnt_sec{
+        width: 100%;
+    }
+}
 @media screen and (max-width:1260px){
     .report_view_tL{
         margin-top: 0px;

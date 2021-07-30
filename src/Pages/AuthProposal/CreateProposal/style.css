@@ -125,6 +125,22 @@
 .mob_bm_btn{
   display: none;
 }
+
+@media screen and (min-width:1350px){
+  .addUser_detail_md{
+    width: 100%;
+  }
+  .auth_organizeForm_md{
+    width: 98%;
+  }
+  .assign_role_container,.add_user_du_conatainer{
+    width: 50%;
+  }
+  .auth_creatProp_main{
+    width: 100%;
+  }
+}
+
 @media screen and (max-width:1315px){
   .auth_contact_form,.auth_OE_CF{
     margin-left: 7px;

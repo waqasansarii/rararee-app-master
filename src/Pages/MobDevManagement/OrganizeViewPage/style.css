@@ -171,6 +171,12 @@
   margin-top: 20px;
 }
 
+@media (min-width: 1350px) {
+  .key_cDCard{
+    width: 40%;
+  }
+}
+
 @media (max-width: 1300px) {
   .organizatio_vp_right_md {
     width: 69%;

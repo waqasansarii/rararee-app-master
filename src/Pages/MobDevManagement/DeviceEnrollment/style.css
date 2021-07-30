@@ -121,6 +121,20 @@
   color: #8792af;
   font-size: 0.9rem;
 }
+@media (min-width: 1350px) {
+  .device_enroll_right_md{
+    max-width: 100%;
+  }
+  .device_enrol_cards_md{
+    width: 100%;
+  }
+  .slct_org_card_container{
+    width: 50%;
+  }
+  .device_detail_conatainer{
+    width: 48%;
+  }
+}
 
 @media (max-width: 1300px) {
   .slct_org_card_container,

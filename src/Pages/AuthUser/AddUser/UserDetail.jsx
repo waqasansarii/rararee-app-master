@@ -5,7 +5,7 @@ import permision from "../../../Assets/Group 3638.png";
 const UserDetail = () => {
   return (
     <div className="add_user_du_conatainer">
-      <div className="auth_organize_form_container">
+      <div className="auth_organize_form_container auth_userAdd_formMD">
         <div className="auth_organizeForm_md auth_contact_form">
           <h6>User Details</h6>
           <div className="auth_OD_sd">

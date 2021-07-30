@@ -563,6 +563,11 @@
   }
 }
 
+@media screen and (min-width: 1350px) {
+  .authority_left_md{
+    width: 27%;
+  }
+}
 @media screen and (max-width: 1200px) {
   .authority_right_md {
     width: 65%;

@@ -90,6 +90,14 @@
   color: #8792af;
   margin-bottom: 0px;
 }
+@media (min-width:1350px){
+  .auth_userAdd_formMD{
+    width: 100%;
+  }
+ .auth_UA_main .addUser_Mt{
+    width: 100%;
+  }
+}
 @media (max-width:800px){
   .auth_addU_mPara{
     margin-top: 28px !important;
