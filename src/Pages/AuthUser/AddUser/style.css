@@ -55,6 +55,7 @@
 .add_user_du_conatainer {
   height: 80vh;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 .add_user_du_conatainer::-webkit-scrollbar {
   width: 5px;
