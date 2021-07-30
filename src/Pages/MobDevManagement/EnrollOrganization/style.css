@@ -178,6 +178,10 @@
    }
 }
 @media (max-width:400px){
+    .auth_ORG_enrol_right_md .auth_CDI_hW input::placeholder{
+        font-size: .8rem;
+    
+    }
     .auth_ORG_enrol_right_md{
         width: 92%;
     }
@@ -191,5 +195,9 @@
 @media (max-width:340px){
     .auth_ORG_enrol_right_md .manage_head>p{
         margin-left: 30px !important;
+    }
+    .auth_ORG_enrol_right_md .auth_CDI_hW input::placeholder{
+        font-size: .75rem;
+    
     }
 }
