@@ -51,7 +51,7 @@ const AddAUser = () => {
           </div>
         </div>
         <div className="add_user_mp">
-          <p>
+          <p className='auth_addU_mPara'>
             An organization could be hospital, laboratory, or any business
             looking to deploy Rarare App Services.
           </p>

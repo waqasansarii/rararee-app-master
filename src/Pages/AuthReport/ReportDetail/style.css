@@ -435,6 +435,8 @@
     }
     .mySwiper_tinyImg img{
         height: 40px;
+        /* width: 79px; */
+        width: 100%;
     }
     .report_mobV_head>h5{
         font-size: 1rem;

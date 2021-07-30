@@ -7,7 +7,9 @@
   color: #8792af;
   margin-top: 5px;
 }
-
+.auth_addU_mPara{
+  margin-top: 8px !important;
+}
 .add_user_btn>button{
   width: 150px;
   text-align: center;
@@ -86,4 +88,9 @@
   font-size: 0.8rem;
   color: #8792af;
   margin-bottom: 0px;
+}
+@media (max-width:800px){
+  .auth_addU_mPara{
+    margin-top: 28px !important;
+  }
 }

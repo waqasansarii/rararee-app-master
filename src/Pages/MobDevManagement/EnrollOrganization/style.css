@@ -3,7 +3,10 @@
     margin-top: 30px;
     margin-left: 20px;
     margin-bottom: 50px;
+    width: 72%;
+    max-width: 970px;
 }
+
 .auth_eO_btn> button{
     width: 120px;
 }
@@ -124,6 +127,7 @@
 @media (max-width:1050px){
     .auth_ORG_enrol_right_md{
         width: 95%;
+        margin: 25px auto;
     }
     .auth_OE_forms_md{
         max-height: 100%;
