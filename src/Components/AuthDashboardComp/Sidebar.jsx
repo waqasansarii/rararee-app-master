@@ -270,7 +270,7 @@ const Sidebar = ({ id }) => {
                 >
                   <div className="img_name">
                     <img src={logout} alt="..." />
-                    <p>Logout</p>
+                    <p>slide 13</p>
                   </div>
                   <img src={more} alt="..." />
                 </NavLink>
@@ -283,7 +283,7 @@ const Sidebar = ({ id }) => {
                 >
                   <div className="img_name">
                     <img src={logout} alt="..." />
-                    <p>Logout</p>
+                    <p>slide 14</p>
                   </div>
                   <img src={more} alt="..." />
                 </NavLink>
@@ -296,7 +296,7 @@ const Sidebar = ({ id }) => {
                 >
                   <div className="img_name">
                     <img src={logout} alt="..." />
-                    <p>Logout</p>
+                    <p>slide 6</p>
                   </div>
                   <img src={more} alt="..." />
                 </NavLink>
