@@ -311,6 +311,9 @@
   width: 430px;
   margin-top: 30px;
 }
+
+
+
 .see_world_ul {
   position: absolute;
   left: -250px;
@@ -335,12 +338,77 @@
 .li_swiper_slides{
   height: fit-content !important;
 }
-/* .li1 {
-  opacity: 0.4;
+
+/* slider map slide css  */
+
+.sliderMap_container{
+  background-color: black;
+  background-image: url(../../Assets/slider\ bg.png);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.li2 {
-  opacity: 0.6;
-} */
+.sliderMap_sd{
+  display: flex;
+  justify-content: flex-end;
+  /* width: 80%; */
+  /* margin: 0px auto; */
+}
+.sliderMap_left_section{
+  padding: 20px;
+  padding-top: 40px;
+  width: 40%;
+  color: white;
+}
+.sliderMap_left_section h1,.sliderMap_left_section h5{
+  color: white;
+  font-weight: bold ;
+}
+.sliderMap_btns{
+  display: flex;
+}
+.sliderMap_cusBtn{
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #19C2A0;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+}
+.sliderMap_locations{
+  margin-top: 20px;
+}
+.sliderMap_loc{
+  display: flex;
+  align-items: center;
+}
+.sliderMap_loc>p{
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.beforeAfteDiv{
+  margin-top: 15px;
+}
+.sliderMap_right_section{
+  width: 45%;
+}
+.shadowImg_Container{
+  position: relative;
+}
+.shadow_img{
+  width: 100%;
+  margin-top: 168px;
+  /* position: absolute; */
+  /* bottom: 10px; */
+  z-index: 999;
+  right: 0px;
+  top: 100px;
+}
+.heroSection_slider .swiper-pagination-bullets{
+  
+}
+
+
 @media screen and (max-width: 1510px) {
   .reinvite_main_div {
     width: 100%;
