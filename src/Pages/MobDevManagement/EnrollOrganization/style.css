@@ -1,203 +1,207 @@
-
-.auth_ORG_enrol_right_md{
+.auth_ORG_enrol_right_md {
     margin-top: 30px;
     margin-left: 20px;
     margin-bottom: 50px;
     width: 72%;
     max-width: 970px;
 }
+/* @media (min-width: 1500px) {
+  .auth_ORG_enrol_right_md {
+    margin: 50px auto;
+  }
+} */
 
-.auth_eO_btn> button{
-    width: 120px;
+.auth_eO_btn > button {
+  width: 120px;
 }
-.auth_cus_wht_btn{
-    background: transparent;
-    color: #1CC09F;
-    border: 2px solid #19C2A0;
-    padding: 5px 25px;
-    margin-right: 10px;
+.auth_cus_wht_btn {
+  background: transparent;
+  color: #1cc09f;
+  border: 2px solid #19c2a0;
+  padding: 5px 25px;
+  margin-right: 10px;
 }
-.auth_head_btn_md{
-    display: flex;
+.auth_head_btn_md {
+  display: flex;
 }
-.auth_OE_forms_md{
-    display: flex;
-    margin-top: 20px;
+.auth_OE_forms_md {
+  display: flex;
+  margin-top: 20px;
 }
 
 /* forms css  */
 
-.auth_organizeForm_md{
-    background-color: #F4F5F9;
-    padding: 20px;
-    width: 470px;
+.auth_organizeForm_md {
+  background-color: #f4f5f9;
+  padding: 20px;
+  width: 470px;
 }
-.auth_OD_sd{
-    display: flex;
-    flex-direction: column;
-    
+.auth_OD_sd {
+  display: flex;
+  flex-direction: column;
 }
-.auth_OEI_FW{
-    margin-top: 15px;
-    padding: 6px;
-    border-radius: 4px;
-    border: 1px solid #19C2A0;
-    color: #8792AF;
-    outline: none;
+.auth_OEI_FW {
+  margin-top: 15px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #19c2a0;
+  color: #8792af;
+  outline: none;
 }
-.auth_OEI_FW::placeholder{
-    color: #8792AF;
+.auth_OEI_FW::placeholder {
+  color: #8792af;
 }
-.auth_contact_form{
-    margin-left: 20px;
+.auth_contact_form {
+  margin-left: 20px;
 }
-.auth_OE_CF{
-    margin-left: 20px;
-    margin-top: 18px;
+.auth_OE_CF {
+  margin-left: 20px;
+  margin-top: 18px;
 }
-.auth_CDI_hW,.auth_CD_CNI{
-    display: flex;
-    justify-content: space-between;
+.auth_CDI_hW,
+.auth_CD_CNI {
+  display: flex;
+  justify-content: space-between;
 }
-.auth_CDI_hW>input,.auth_CDI_hW>select{
-    padding: 6px;
-    margin-top: 15px;
-    width: 48%;
-    border-radius: 4px;
-    border: 1px solid #19C2A0;
-   outline: none;
-   color: #8792AF;
+.auth_CDI_hW > input,
+.auth_CDI_hW > select {
+  padding: 6px;
+  margin-top: 15px;
+  width: 48%;
+  border-radius: 4px;
+  border: 1px solid #19c2a0;
+  outline: none;
+  color: #8792af;
 }
-.auth_CD_CNI{
-    background-color: white;
-    border: 1px solid #19C2A0;
-    margin-top: 15px;
-    border-radius: 4px;
-    /* padding: 6px; */
-    /* padding: 2px 0px; */
-    display: flex;
-    align-items: center;
+.auth_CD_CNI {
+  background-color: white;
+  border: 1px solid #19c2a0;
+  margin-top: 15px;
+  border-radius: 4px;
+  /* padding: 6px; */
+  /* padding: 2px 0px; */
+  display: flex;
+  align-items: center;
 }
-.auth_CD_CNI>input{
-   outline: none;
-   border: none;
-   border-radius: 4px;
+.auth_CD_CNI > input {
+  outline: none;
+  border: none;
+  border-radius: 4px;
 }
-.auth_CD_CNI>input:nth-child(2){
-    width: 90%;
-    border-left: 1px solid #19C2A0;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
-    padding-left: 6px;
-    height: 27px;
-    /* margin-top: 5px; */
+.auth_CD_CNI > input:nth-child(2) {
+  width: 90%;
+  border-left: 1px solid #19c2a0;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  padding-left: 6px;
+  height: 27px;
+  /* margin-top: 5px; */
 }
-.auth_OE_heading{
-    margin-top: 10px;
+.auth_OE_heading {
+  margin-top: 10px;
 }
 
-@media (max-width:1260px){
-    .auth_OE_forms_md{
-        flex-wrap: wrap;
-    }
-    .auth_OE_forms_md .auth_organizeForm_md{
-        width: 400px;
-    }
-   .auth_OE_forms_md .auth_OE_Cform{
-       margin-left: 15px;
-   }
+@media (max-width: 1260px) {
+  .auth_OE_forms_md {
+    flex-wrap: wrap;
+  }
+  .auth_OE_forms_md .auth_organizeForm_md {
+    width: 400px;
+  }
+  .auth_OE_forms_md .auth_OE_Cform {
+    margin-left: 15px;
+  }
 }
-@media (max-width:1165px){
-    .auth_OE_forms_md{
-        max-height: 90vh;
-        overflow-y: auto;
-        margin-bottom: 20px;
-    }
-    .auth_OE_forms_md::-webkit-scrollbar{
-        width: 5px;
-    }
-    .auth_OE_forms_md .auth_organizeForm_md{
-        width: 450px;
-    }
-    .auth_OE_forms_md .auth_OE_Cform{
-        margin-left: 0px;
-        margin-top: 20px;
-    }
+@media (max-width: 1165px) {
+  .auth_OE_forms_md {
+    max-height: 90vh;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  .auth_OE_forms_md::-webkit-scrollbar {
+    width: 5px;
+  }
+  .auth_OE_forms_md .auth_organizeForm_md {
+    width: 450px;
+  }
+  .auth_OE_forms_md .auth_OE_Cform {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
 }
-@media (max-width:1050px){
-    .auth_ORG_enrol_right_md{
-        width: 95%;
-        margin: 25px auto;
-    }
-    .auth_OE_forms_md{
-        max-height: 100%;
-    }
-    .auth_OE_forms_md .auth_OE_Cform{
-        margin-left: 15px;
-        margin-top: 0px;
-    }
-    .auth_OE_forms_md .auth_organizeForm_md{
-        /* width: 450px; */
-        width: 100%;
-    }
-   .auth_OE_forms_md .auth_organize_form_container{
-       width: 49%;
-   }
-    .auth_ORG_enrol_right_md .manage_head>h6{
-       display: none;
-    }
-    .auth_ORG_enrol_right_md .manage_head>p{
-         margin-top: 40px;
-         margin-left: 50px !important;
-    }
-    .auth_ORG_enrol_right_md .auth_eO_btn{
-        margin-top: -20px !important;
-    }
+@media (max-width: 1050px) {
+  .auth_ORG_enrol_right_md {
+    width: 95%;
+    margin: 25px auto;
+  }
+  .auth_OE_forms_md {
+    max-height: 100%;
+  }
+  .auth_OE_forms_md .auth_OE_Cform {
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+  .auth_OE_forms_md .auth_organizeForm_md {
+    /* width: 450px; */
+    width: 100%;
+  }
+  .auth_OE_forms_md .auth_organize_form_container {
+    width: 49%;
+  }
+  .auth_ORG_enrol_right_md .manage_head > h6 {
+    display: none;
+  }
+  .auth_ORG_enrol_right_md .manage_head > p {
+    margin-top: 40px;
+    margin-left: 50px !important;
+  }
+  .auth_ORG_enrol_right_md .auth_eO_btn {
+    margin-top: -20px !important;
+  }
 }
-@media (max-width:790px){
-    .auth_OE_forms_md{
-        max-height: 95vh;
-        justify-content: center;
-        /* margin: 0px auto; */
-    }
-    .auth_OE_forms_md .auth_organize_form_container{
-        /* width: 70%; */
-        width: 420px;
-    }
-    .auth_OE_forms_md .auth_OE_Cform{
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-    .auth_ORG_enrol_right_md .auth_eO_btn{
-        display: none !important;
-    }
-   .auth_ORG_enrol_right_md .mob_bm_btn{
-       display: flex;
-       justify-content: center;
-       margin-bottom: 20px;
-   }
+@media (max-width: 790px) {
+  .auth_OE_forms_md {
+    max-height: 95vh;
+    justify-content: center;
+    /* margin: 0px auto; */
+  }
+  .auth_OE_forms_md .auth_organize_form_container {
+    /* width: 70%; */
+    width: 420px;
+  }
+  .auth_OE_forms_md .auth_OE_Cform {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .auth_ORG_enrol_right_md .auth_eO_btn {
+    display: none !important;
+  }
+  .auth_ORG_enrol_right_md .mob_bm_btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 }
-@media (max-width:400px){
-    .auth_ORG_enrol_right_md .auth_CDI_hW input::placeholder{
-        font-size: .8rem;
-    
-    }
-    .auth_ORG_enrol_right_md{
-        width: 92%;
-    }
-    .auth_ORG_enrol_right_md .manage_head>p{
-        margin-left: 40px !important;
-    }
-    .auth_CDI_hW>input, .auth_CDI_hW>select{
-        font-size: .75rem !important;
-    }
+@media (max-width: 400px) {
+  .auth_ORG_enrol_right_md  input::placeholder {
+    font-size: 0.8rem;
+  }
+  .auth_ORG_enrol_right_md {
+    width: 92%;
+  }
+  .auth_ORG_enrol_right_md .manage_head > p {
+    margin-left: 40px !important;
+  }
+  .auth_CDI_hW > input,
+  .auth_CDI_hW > select {
+    font-size: 0.75rem !important;
+  }
 }
-@media (max-width:340px){
-    .auth_ORG_enrol_right_md .manage_head>p{
-        margin-left: 30px !important;
-    }
-    .auth_ORG_enrol_right_md .auth_CDI_hW input::placeholder{
-        font-size: .75rem;
-    
-    }
+@media (max-width: 340px) {
+  .auth_ORG_enrol_right_md .manage_head > p {
+    margin-left: 30px !important;
+  }
+  .auth_ORG_enrol_right_md  input::placeholder {
+    font-size: 0.75rem;
+  }
 }
