@@ -3,8 +3,8 @@ import React from "react";
 import bg from "../../Assets/slider bg.png";
 import mapImg from "../../Assets/Group 6012.png";
 import location from '../../Assets/Icon material-locationW.png'
-import shadowImg from '../../Assets/slider main shadow.png'
-// import shadowImg from '../../Assets/Group 6048.png'
+import shadowImg2 from '../../Assets/slider main shadow.png'
+import shadowImg from '../../Assets/slide2 bg.png'
 
 const ReinviteSlideTwoSection = () => {
   return (
@@ -40,6 +40,11 @@ const ReinviteSlideTwoSection = () => {
             </div>
           </div>
           <div className="sliderMap_right_section">
+              <div className='BeforAfter_text'>
+                  <p className='afterText'>After</p>
+                  <p className='beforeText'>Before</p>
+
+              </div>
             <div className='shadowImg_Container'>
                 <img className='shadow_img' src={shadowImg} alt="..." />
             </div>

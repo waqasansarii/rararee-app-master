@@ -27,8 +27,8 @@ const Reinvite = () => {
 
   return (
     <div className="reinvite_container">
-      <Swiper navigation={true} pagination className='heroSection_slider' >
-        <SwiperSlide>
+      <Swiper navigation={true} pagination className='heroSection_slider' autoHeight={true}>
+        <SwiperSlide className='bgSlide1'>
           <div className="reinvite_main_div">
             <div className="reinvite_head_div">
               <div className="img_detail_div">
