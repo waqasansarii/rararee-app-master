@@ -1,3 +1,7 @@
+/* .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide
+{
+  height: 800px !important;
+} */
 /* cokkiew css  */
 
 .cokkie_main_div {
@@ -246,6 +250,7 @@
   justify-content: space-between;
   /* justify-content: center; */
   /* width: 80%; */
+  /* height: 555px !important; */
   margin: 0px auto;
   background-color: #e7f9f5;
 }
@@ -373,11 +378,20 @@
   color: white;
   font-weight: bold;
 }
+.sliderMap_left_section h5{
+  font-size: 1rem;
+}
+.sliderMap_left_section h1{
+  font-size: 1.4rem;
+}
 .sliderMap_left_section p {
   font-size: 0.9rem;
 }
 .sliderMap_btns {
   display: flex;
+}
+.sliderMap_btns>button{
+  font-size: .85rem;
 }
 .sliderMap_cusBtn {
   outline: none;
@@ -400,6 +414,10 @@
 }
 .beforeAfteDiv {
   margin-top: 15px;
+
+}
+.beforeAfteDiv>img{
+  width: 140px;
 }
 .sliderMap_right_section {
   width: 45%;
@@ -408,12 +426,12 @@
 }
 .BeforAfter_text {
   display: flex;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .afterText {
   margin-left: -20px;
   margin-bottom: 0px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .beforeText {
   margin-left: 80px;
@@ -431,14 +449,19 @@
 
 } */
 @media screen and (min-width: 1060px) {
-  .heroSection_slider .swiper-button-next,
-  .heroSection_slider .swiper-button-prev {
+  .heroSection_slider .swiper-button-next{
     height: 110%;
     top: 0px;
     right: 0px;
+    padding-right: 20px;
+    padding-left: 40px;
     color: #19c2a0;
   }
   .heroSection_slider .swiper-button-prev {
+    height: 110%;
+    top: 0px;
+    padding-right: 40px;
+    padding-left: 20px;
     left: 0px;
   }
   .heroSection_slider .swiper-button-next:hover {
