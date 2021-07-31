@@ -36,7 +36,7 @@ const ReinviteSlideTwoSection = () => {
                     <img src={mapImg} alt="..." />
                     <img src={mapImg} alt="..." />
                 </div>
-                <p>Source: www.planet.com</p>
+                <p className='slideremail'>Source: www.planet.com</p>
             </div>
           </div>
           <div className="sliderMap_right_section">

@@ -408,6 +408,9 @@
   display: flex;
   align-items: center;
 }
+.sliderMap_loc>img{
+  height: 19px;
+}
 .sliderMap_loc > p {
   margin-bottom: 0px;
   margin-left: 10px;
@@ -446,10 +449,17 @@
   width: 100%;
   margin-top: 168px;
 }
+
+.slideremail{
+  margin-bottom: 0px;
+}
 /* .heroSection_slider .swiper-pagination-bullets{
 
 } */
 @media screen and (min-width: 1060px) {
+  /* .heroSection_slider{
+    height: 450px !important;
+  } */
   .heroSection_slider .swiper-button-next{
     height: 110%;
     top: 0px;
