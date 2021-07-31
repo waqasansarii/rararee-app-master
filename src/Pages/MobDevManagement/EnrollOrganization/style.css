@@ -103,6 +103,8 @@
 @media (min-width: 1350px) {
   .auth_ORG_enrol_right_md{
     max-width: 100%;
+    margin-right: 40px;
+    margin-left: 40px;
   }
   .auth_OE_forms_md{
     width: 99%;

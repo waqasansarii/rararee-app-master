@@ -256,6 +256,7 @@
 @media screen and (min-width: 1350px) {
   .authority_vp_right_md{
     width: 72%;
+    margin-right: 50px;
   }
   .view_propsal_right_card_conatainer{
     width: 100%;

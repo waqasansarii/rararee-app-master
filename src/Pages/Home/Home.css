@@ -417,7 +417,8 @@
 
 }
 .beforeAfteDiv>img{
-  width: 140px;
+  width: 130px;
+  object-fit: contain;
 }
 .sliderMap_right_section {
   width: 45%;
@@ -481,8 +482,9 @@
 .heroSection_slider .swiper-pagination-bullet{
   width: 30px;
   border-radius: 0px;
-  height: 3px;
+  height: 3px; 
 }
+
 @media screen and (min-width: 1700px) {
   .reinvite_main_div {
     /* width: 100%; */

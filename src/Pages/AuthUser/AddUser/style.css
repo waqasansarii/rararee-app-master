@@ -97,6 +97,10 @@
  .auth_UA_main .addUser_Mt{
     width: 100%;
   }
+  .auth_addUSer_right_md{
+    margin-right: 40px;
+    margin-left: 40px;
+  }
 }
 @media (max-width:800px){
   .auth_addU_mPara{
