@@ -336,6 +336,7 @@
   /* padding-right: 20px; */
   border-radius: 5px;
   font-size: 0.8rem;
+  background-color: white;
 }
 .li_swiper_slides {
   height: fit-content !important;
