@@ -70,7 +70,9 @@ const OrganizationViewPage = () => {
             <h6>Active Devices</h6>
             <button className="cus_grn_btn">Enroll Device</button>
           </div>
+          {/* cards for mobile view  */}
           <MobViewEnrollCard />
+          {/* table for desktop view  */}
           <div className="org_vp_table">
             <Table />
           </div>

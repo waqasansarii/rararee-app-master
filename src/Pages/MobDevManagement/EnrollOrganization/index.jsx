@@ -43,13 +43,13 @@ const OrganizationEnrollment = () => {
       <div className="auth_ORG_enrol_right_md">
         <div className="encovision_head">
           <div className="manage_head">
-            {/* <img src={encovision} alt="..." /> */}
             <h6>Organization Enrollment</h6>
             <p>
               An organization could be hospital, laboratory, or any business
               looking to deploy Rarare App Services.
             </p>
           </div>
+          {/* buttons for desktop view  */}
           <div className="auth_head_btn_md auth_eO_btn">
             <button className="auth_cus_wht_btn">Discard</button>
             <button className="cus_grn_btn">Save</button>
@@ -59,6 +59,7 @@ const OrganizationEnrollment = () => {
           <OrganizeForm />
           <ContactForm />
         </div>
+        {/* buttons for mobile view  */}
         <div className="auth_head_btn_md add_user_btn mob_bm_btn">
           <button className="auth_cus_wht_btn">Discard</button>
           <button className="cus_grn_btn">Save</button>

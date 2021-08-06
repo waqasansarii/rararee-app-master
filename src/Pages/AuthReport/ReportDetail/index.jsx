@@ -49,9 +49,11 @@ const ReportDetail = () => {
         </div>
         <Searchbar />
         <div className="AR_table_slider_md">
+          {/* table for desktop view  */}
           <div className="AR_table_md">
             <Table />
           </div>
+          {/* mobile view cards  */}
           <ReportMobViewCard />
           <div className="AR_slider_timeline_md">
             <ReportSlider />

@@ -45,6 +45,7 @@ const AuthCreateProposal = () => {
           <div className="manage_head">
             <h6>Create Proposal</h6>
           </div>
+          {/* desktop view buttons  */}
           <div className="auth_head_btn_md add_user_btn">
             <button className="auth_cus_wht_btn">Discard</button>
             <button className="cus_grn_btn">Save</button>
@@ -57,6 +58,7 @@ const AuthCreateProposal = () => {
           <ProposalType />
           <ProposalDetail />
         </div>
+        {/* mobile view buttons  */}
         <div className="auth_head_btn_md add_user_btn mob_bm_btn">
           <button className="auth_cus_wht_btn">Discard</button>
           <button className="cus_grn_btn">Save</button>

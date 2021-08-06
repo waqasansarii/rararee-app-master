@@ -56,7 +56,6 @@ const EnrollDevices = () => {
             </button>
           </div>
         </div>
-        {/* <div className="manage_para"></div> */}
         <div className="enrol_search_boxes">
           <div className="searhc_proposal_md ">
             <img src={search} alt="..." />
@@ -75,7 +74,9 @@ const EnrollDevices = () => {
         <div className="mob_srch_org_btn">
           <button className="cus_grn_btn">Search</button>
         </div>
+        {/* table for desktop view  */}
         <Table />
+        {/* cards for mobile view  */}
         <MobViewEnrollCard />
       </div>
     </div>

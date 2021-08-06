@@ -49,7 +49,9 @@ const AuthViewProposal = () => {
           <img src={search} alt="..." />
           <input type="text" placeholder="Search proposals" />
         </div>
+        {/* desktop view table  */}
         <Table />
+        {/* mobile view cards  */}
         <MobViewCard />
       </div>
     </div>

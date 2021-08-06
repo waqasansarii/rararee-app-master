@@ -57,7 +57,9 @@ const ActiveOrganization = () => {
         <div className="mob_srch_org_btn">
           <button className="cus_grn_btn">Search</button>
         </div>
+        {/* table for desktop view  */}
         <Table />
+        {/* cards for mobile view  */}
         <MObViewOrgCard />
       </div>
     </div>

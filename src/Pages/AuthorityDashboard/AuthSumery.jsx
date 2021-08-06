@@ -101,9 +101,9 @@ const AuthSumery = () => {
               <h6>Problem by Category</h6>
             </div>
             <PieChart className="prop_pie_chart" />
-            {/* <ProposalPieChart className='prop_pie_chart' /> */}
           </div>
         </div>
+        {/* cards section  */}
         <div className="authority_right_sd prop_db_card_md">
           <AuthorityProposalCard
             headColor="auth_blue_head"
@@ -178,7 +178,7 @@ const AuthSumery = () => {
           </div>
           <DeviceActivity />
         </div>
-        {/* encovisionn  */}
+        {/* encovisionn section */}
         <div className="encocision_container prop_db_card_md">
           <div className="encovision_md">
             <div className="encovision_head">
@@ -214,13 +214,14 @@ const AuthSumery = () => {
                   </select>
                 </div>
                 <PieChart className="prop_pie_chart" />
-                {/* <ProposalPieChart className="prop_pie_chart " /> */}
               </div>
             </div>
             <div className="mt-4">
+              {/* desktop view table  */}
               <div className="desktopView_enco_table">
                 <Table />
               </div>
+              {/* mobile view card */}
               <EncovisionMobViewCard />
             </div>
           </div>

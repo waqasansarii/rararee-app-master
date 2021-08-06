@@ -82,6 +82,7 @@ const DeviceView = () => {
             <OrgDetailCard className="Org_dd_vp_md" />
           </div>
           <div className="DD_vp_table_cont">
+            {/* device control buttons  */}
             <div className="dd_vp_acc_btns_md">
               <div className="device_control_md">
                 <h6>Device Control</h6>
@@ -139,9 +140,11 @@ const DeviceView = () => {
                   <button className="cus_grn_btn">Install Custom API</button>
                 </div>
               </div>
+              {/* table for desktop view  */}
               <div className="org_vp_table">
                 <Table />
               </div>
+              {/* cards for mobile view  */}
               <MobViewDeviceCard />
             </div>
           </div>

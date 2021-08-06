@@ -62,7 +62,9 @@ const UserManagement = () => {
         <div className="mob_srch_org_btn">
           <button className="cus_grn_btn">Search</button>
         </div>
+        {/* desktop view table  */}
         <Table />
+        {/* mobile view card  */}
         <MobViewUserMngCard />
       </div>
     </div>

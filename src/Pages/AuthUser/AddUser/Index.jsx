@@ -45,6 +45,7 @@ const AddAUser = () => {
           <div className="manage_head">
             <h6>Organization Enrollment</h6>
           </div>
+        {/* buttons for desktop view  */}
           <div className="auth_head_btn_md add_user_btn">
             <button className="auth_cus_wht_btn">Discard</button>
             <button className="cus_grn_btn">Save</button>
@@ -60,6 +61,7 @@ const AddAUser = () => {
           <AssignRole />
           <UserDetail />
         </div>
+        {/* buttons for mobile view  */}
         <div className="auth_head_btn_md add_user_btn mob_bm_btn">
           <button className="auth_cus_wht_btn">Discard</button>
           <button className="cus_grn_btn">Save</button>

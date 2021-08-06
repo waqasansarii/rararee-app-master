@@ -106,12 +106,10 @@ const ViewProposalPage = () => {
                 <div className="vp_Piechart_cal">
                   <p style={{ backgroundColor: "#19C2A0" }}></p>
                   <p>Option A</p>
-                  {/* <h5 style={{ color: "#19C2A0" }}>25,000</h5> */}
                 </div>
                 <div className="vp_Piechart_cal">
                   <p style={{ backgroundColor: "#ED9F10" }}></p>
                   <p>Option B</p>
-                  {/* <h5 style={{ color: "#ED9F10" }}>15,000</h5> */}
                 </div>
               </div>
             </div>
