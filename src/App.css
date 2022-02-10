@@ -152,3 +152,62 @@ button {
 .cus_width100 {
   width: 150px;
 }
+
+.myApp{
+  min-height: 100vh;
+}
+
+/* footer  */
+
+.copyright_area {
+  background: #202020;
+  padding: 7px 0;
+}
+
+.cs_container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align:center;
+}
+
+.copyright_text * {
+  font-size: 17px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.copyright_text a {
+  color: #1aaca2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.copyright_text a:hover {
+  text-decoration: none;
+  color: #1aaca2;
+}
+
+.copyright_text {
+  color: #6c757d
+}
+
+@media (max-width: 768px) {
+  .copyright_text * {
+      font-size: 15px !important;
+  }
+}
+
+@media (max-width: 370px) {
+  .copyright_text * {
+      font-size: 12px !important;
+  }
+}

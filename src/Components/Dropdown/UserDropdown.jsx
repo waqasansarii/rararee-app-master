@@ -59,6 +59,12 @@ const UserDropdown = ({ logout }) => {
               Account Settings
             </button>
             <button
+              onClick={() => history.push("/auth-dashboard")}
+              className="text_bluegreen bg_white border_solid bluegreen_border"
+            >
+              Dashboard
+            </button>
+            <button
               onClick={logout}
               className="text_bluegreen bg_white border_solid bluegreen_border"
             >

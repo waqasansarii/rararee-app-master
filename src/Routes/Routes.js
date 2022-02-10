@@ -54,12 +54,12 @@ import EnrollDevices from "../Pages/MobDevManagement/EnrollDevice/index";
 import AuthProfileSetting from "../Pages/AuthAcountSeting/ProfileSeting";
 import AuthSecuritySetting from "../Pages/AuthAcountSeting/SecuritySetting";
 import ViewProposalPage from "../Pages/AuthProposal/ViewProposal";
-import OrganizationEnrollment from '../Pages/MobDevManagement/EnrollOrganization/index'
+import OrganizationEnrollment from "../Pages/MobDevManagement/EnrollOrganization/index";
 import OrganizationViewPage from "../Pages/MobDevManagement/OrganizeViewPage";
 import DeviceEnrollment from "../Pages/MobDevManagement/DeviceEnrollment";
-import AddAUser from '../Pages/AuthUser/AddUser/Index'
+import AddAUser from "../Pages/AuthUser/AddUser/Index";
 import AuthCreateProposal from "../Pages/AuthProposal/CreateProposal";
-import ReportDetail from '../Pages/AuthReport/ReportDetail/index'
+import ReportDetail from "../Pages/AuthReport/ReportDetail/index";
 import ReportDetailTwo from "../Pages/AuthReport/ReportDetailTwo";
 import ReportView from "../Pages/AuthReport/ReportView";
 import UserDetail from "../Pages/AuthUser/UserDetail";
@@ -130,25 +130,29 @@ const Routes = () => {
           <Route path="/survey-reward" component={PostSurveyReward} />
           <Route path="/survey-submit" component={PostSurveyReceive} />
           <Route path="/participate" component={Participate} />
-          <Route path='/auth-dashboard' component={AuthSumery} />
-          <Route path='/auth-proposal' component={AuthViewProposal} />
-          <Route path='/user-management' component={UserManagement} />
-          <Route path='/active-organization' component={ActiveOrganization} />
-          <Route path='/enroll-device' component={EnrollDevices} />
-          <Route path='/auth-profile-setting' component={AuthProfileSetting} />
-          <Route path='/auth-secure-seting' component={AuthSecuritySetting} />
-          <Route path='/auth-view-proposal' component={ViewProposalPage} />
-          <Route path='/organizationn-enroll' component={OrganizationEnrollment} />
-          <Route path='/organizationn-view' component={OrganizationViewPage} />
-          <Route path='/device-enroll' component={DeviceEnrollment} />
-          <Route path='/add-user' component={AddAUser} />
-          <Route path='/create-proposal'  component={AuthCreateProposal}/>
-          <Route path='/report-detail' component={ReportDetail} />
-          <Route path='/report-detail-two' component={ReportDetailTwo} />
-          <Route path='/report-view' component={ReportView} />
-          <Route path='/user-detail' component={UserDetail} />
-          <Route  path='/device-view' component={DeviceView} />
+          <Route path="/auth-dashboard" component={AuthSumery} />
+          <Route path="/auth-proposal" component={AuthViewProposal} />
+          <Route path="/user-management" component={UserManagement} />
+          <Route path="/active-organization" component={ActiveOrganization} />
+          <Route path="/enroll-device" component={EnrollDevices} />
+          <Route path="/auth-profile-setting" component={AuthProfileSetting} />
+          <Route path="/auth-secure-seting" component={AuthSecuritySetting} />
+          <Route path="/auth-view-proposal" component={ViewProposalPage} />
+          <Route
+            path="/organizationn-enroll"
+            component={OrganizationEnrollment}
+          />
+          <Route path="/organizationn-view" component={OrganizationViewPage} />
+          <Route path="/device-enroll" component={DeviceEnrollment} />
+          <Route path="/add-user" component={AddAUser} />
+          <Route path="/create-proposal" component={AuthCreateProposal} />
+          <Route path="/report-detail" component={ReportDetail} />
+          <Route path="/report-detail-two" component={ReportDetailTwo} />
+          <Route path="/report-view" component={ReportView} />
+          <Route path="/user-detail" component={UserDetail} />
+          <Route path="/device-view" component={DeviceView} />
         </Switch>
+        
         {/* <Footer /> */}
       </Router>
     </React.Fragment>
